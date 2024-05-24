@@ -54,15 +54,15 @@ Add the one you want to the `pluginchannels` array in `settings.json`, so like t
 
 | Name | Description | OS | Requirements |
 |-- | -- | -- | -- |
-| [acme] | An acme style editing plugin for the micro editor.
-| [align] | Simple plugin to align multiple cursors in micro.
-| [ag] | This plugin provides the ability to search with "ag" (aka the_silver_searcher).
-| [aspell] | Spellchecking with Aspel.
-| [battery] | Shows battery percentage on infobar.
-| [calc] | Add calc command for calculating math.
-| [capitalizer] | A simple micro-editor plugin that allows to capitalize selected text.
-| [cheat] | F1 cheatsheet for the language you're editing: Python, Go, Lua...
-| [colorschemes] | Colorschemes aggregator.
+| [acme] | An acme style editing plugin for the micro editor. | ![Linux] ![macOS] | |
+| [align] | Simple plugin to align multiple cursors in micro. | ![Linux] ![macOS] ![Windows] | |
+| [ag] | This plugin provides the ability to search with "ag" (aka the_silver_searcher). | ![Linux] ![macOS] ![Windows] | [ag] |
+| [aspell] | Spellchecking with Aspel. | ![Linux] ![macOS] ![Windows] | [aspell_] |
+| [battery] | Shows battery percentage on infobar. | ![Linux] | |
+| [calc] | Add calc command for calculating math. | ![Linux] | [calc_] |
+| [capitalizer] | A simple micro-editor plugin that allows to capitalize selected text. | ![Linux] ![macOS] ![Windows] | |
+| [cheat] | F1 cheatsheet for the language you're editing: Python, Go, Lua... | ![Linux] ![macOS] ![Windows] | |
+| [colorschemes] | Colorschemes aggregator. | ![Linux] ![macOS] ![Windows] | |
 | [delve] | Integrates golang delve debugger.
 | [emacs_select] | Emacs-style selection for Micro.
 | [filemanager2] | Plugin that allows for easy navigation of a file tree.
@@ -145,3 +145,14 @@ Collaboration is super welcome! See [CONTRIBUTING.md](https://codeberg.org/micro
 [urlopen]: https://github.com/pjg11/micro-urlopen
 [wakatime]: https://github.com/wakatime/micro-wakatime
 [xonsh]: https://codeberg.org/micro-plugins/xonsh
+
+
+
+<!-- Resources/Links -->
+
+[Linux]: https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black
+[macOS]: https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0
+[Windows]: https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white
+[ag]: https://github.com/ggreer/the_silver_searcher
+[aspell_]: http://aspell.net/
+[calc_]: https://github.com/lcn2/calc
