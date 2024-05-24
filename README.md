@@ -52,7 +52,7 @@ Add the one you want to the `pluginchannels` array in `settings.json`, so like t
 
 ## 🔌 Plugins
 
-| Name | Description | OS | Requirements |
+| Name | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#10240; | Requirements |
 |-- | -- | -- | -- |
 | [acme] | An acme style editing plugin for the micro editor. | ![Linux] ![macOS] | |
 | [align] | Simple plugin to align multiple cursors in micro. | ![Linux] ![macOS] ![Windows] | |
@@ -62,7 +62,7 @@ Add the one you want to the `pluginchannels` array in `settings.json`, so like t
 | [calc] | Add calc command for calculating math. | ![Linux] | [calc_] |
 | [capitalizer] | A simple micro-editor plugin that allows to capitalize selected text. | ![Linux] ![macOS] ![Windows] | |
 | [cheat] | F1 cheatsheet for the language you're editing: Python, Go, Lua... | ![Linux] ![macOS] ![Windows] | |
-| [colorschemes] | Colorschemes aggregator. | ![Linux] ![macOS] ![Windows] | |
+| [colorschemes] | Colorschemes aggregator. | ![Linux] ![Windows] ![macOS] | |
 | [delve] | Integrates golang delve debugger.
 | [emacs_select] | Emacs-style selection for Micro.
 | [filemanager2] | Plugin that allows for easy navigation of a file tree.
@@ -150,9 +150,18 @@ Collaboration is super welcome! See [CONTRIBUTING.md](https://codeberg.org/micro
 
 <!-- Resources/Links -->
 
-[Linux]: https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black
+<!--[Linux]: https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black
 [macOS]: https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0
-[Windows]: https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white
+[Windows]: https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white -->
+[Linux]: https://img.shields.io/badge/--FCC624?logo=linux&logoColor=000000
+[Windows]: https://img.shields.io/badge/--08a1f7?logo=windows&logoColor=ffffff
+[macOS]: https://img.shields.io/badge/--181717?logo=apple
+
 [ag]: https://github.com/ggreer/the_silver_searcher
 [aspell_]: http://aspell.net/
 [calc_]: https://github.com/lcn2/calc
+
+![Visual Studio](https://img.shields.io/badge/--181717?logo=linux)
+
+
+
