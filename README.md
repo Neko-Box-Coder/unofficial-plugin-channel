@@ -52,51 +52,51 @@ Add the one you want to the `pluginchannels` array in `settings.json`, so like t
 
 ## 🔌 Plugins
 
-| Name | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#10240; | Requirements |
-|-- | -- | -- | -- |
-| [acme] | An acme style editing plugin for the micro editor. | ![Linux] ![macOS] | |
-| [align] | Simple plugin to align multiple cursors in micro. | ![Linux] ![macOS] ![Windows] | |
-| [ag] | This plugin provides the ability to search with "ag" (aka the_silver_searcher). | ![Linux] ![macOS] ![Windows] | [ag_] |
-| [aspell] | Spellchecking with Aspel. | ![Linux] ![macOS] ![Windows] | [aspell_] |
-| [battery] | Shows battery percentage on infobar. | ![Linux] | |
-| [calc] | Add calc command for calculating math. | ![Linux] | [calc_] |
-| [capitalizer] | A simple micro-editor plugin that allows to capitalize selected text. | ![Linux] ![macOS] ![Windows] | |
-| [cheat] | F1 cheatsheet for the language you're editing: Python, Go, Lua... | ![Linux] ![macOS] ![Windows] | |
-| [colorschemes] | Colorschemes aggregator. | ![Linux] ![Windows] ![macOS] | |
-| [delve] | Integrates golang delve debugger. | ![Linux] ![Windows] ![macOS] | [delve_], `HOME`environment variable |
-| [emacs_select] | Emacs-style selection for Micro. | ![Linux] ![Windows] ![macOS] | |
-| [filemanager2] | Plugin that allows for easy navigation of a file tree. | ![Linux] ![Windows] ![macOS] | |
-| [findinfolder] | Folder search support. | ![Linux] ![macOS] |  [ripgrep], [fzf], [bat] |
-| [fzfinder] | Integrate fzf to select and search for your project files. | ![Linux] ![Windows] ![macOS] | [fzf], (Optional) [bat] |
-| [gitStatus] | Information about git in status bar. | ![Linux] ![Windows] ![macOS] | [git] |
-| [grepsearch] | Using grep to recursively search in files. | ![Linux] ![Windows] ![macOS] | [grep on windows] |
-| [gzplugin] | Read and write .gzip files. | ![Linux] ![Windows] ![macOS] | |
-| [language_env] | Syntax highlighting for files with .env extension. | ![Linux] ![Windows] ![macOS] | |
-| [language_ignore] | Adds syntax highlighting to 'ignore' files. | ![Linux] ![Windows] ![macOS] | |
-| [language_kv] | Syntax highlighting for kvlang. | ![Linux] ![Windows] ![macOS] | |
-| [language_log] | Syntax highlighting for files with .log extension. | ![Linux] ![Windows] ![macOS] | |
-| [latexplugin] | Latex plugin for Micro editor. Main aim is to provide synctex support. | ![Linux] ![macOS] | [pdflatex], [python] |
-| [lintertypescript] | Ability to lint your Typescript (.ts & .tsx) files with tsc. | ![Linux] ![Windows] ![macOS] | [typescript] |
-| [manager] | Provides a way to manage linters, formatters, commands, keybindings, settings, plugins. | ![Linux] ![macOS] | [fzf], unknown... |
-| [mdtree] | A plugin for the micro text editor to add sidebar for jumpring and viewing TOC of markdown files. | ![Linux] ![Windows] ![macOS] | |
-| [microwiki] | Like vimwiki but for micro. | ![Linux] ![Windows] ![macOS] | |
-| [microzim] | Basic manipulation of ZIM-Wiki files. | ![Linux] ![Windows] ![macOS] | |
-| [mxc] | The microExecuter. Hit F5 to execute any script from the Micro buffer! | ![Linux] ![macOS] | |
-| [nelua] | Nelua support for Micro text editor. | ![Linux] ![Windows] ![macOS] | [nelua_] |
-| [nix] | nix-linter plugin and syntax. | ![Linux] ![Windows] ![macOS] | [nix_] |
-| [palettero] | Command palette - Ctrl-P to fuzzy search & run commands, textfilters and descriptions | ![Linux] ![macOS] | [fzf], (Optional) [pythonpy] |
-| [prettier] | This plugin provides the ability to format your code with Prettier. | ![Linux] ![Windows] ![macOS] | [prettier_] |
-| [preview] | A very simple plugin to preview markdown in a second editor pane using pandoc. | ![Linux] ![Windows] ![macOS] | [pandoc] |
-| [repfiles] | A filemanager for your git-repository. | ![Linux] ![macOS] | |
-| [run] | F5 to save and run, F12 to 'make', F9 to 'make' in background. Go, Python, Lua and executable file (#!) supported. Can 'make' whole project even from subdir. | ![Linux] ![macOS] | Different tools depending on file type, but [firefox-esr] for html |
-| [selto] | Simple plugin allowing to quickly select lines. | ![Linux] ![Windows] ![macOS] | |
-| [splitterm] | Run a file or a selection of an inerpreted language within a new terminal window. | ![Linux] ![Windows] ![macOS] | |
-| [sunny-day] | Port of the Emacs theme by Martin Haesler. | ![Linux] ![Windows] ![macOS] | |
-| [testaustime] | Testaustime coding activity tracker for micro. | ![Linux] ![macOS] | |
-| [transform] | Plugin to do various kind of text transformations in Micro. | ![Linux] ![Windows] ![macOS] | |
-| [urlopen] | A plugin for the micro text editor to add support for opening URLs in text files. | ![macOS] | |
-| [wakatime] | Metrics, insights, and time tracking automatically generated from your programming activity. | ![Linux] ![Windows] ![macOS] | |
-| [xonsh] | Syntax highlighting for xonsh files. | ![Linux] ![Windows] ![macOS] | |
+| Code Check | Name | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#10240; | Requirements |
+| -- |-- | -- | -- | -- |
+| ✅ | [acme] | An acme style editing plugin for the micro editor. | ![Linux] ![macOS] | |
+| ✅ | [align] | Simple plugin to align multiple cursors in micro. | ![Linux] ![macOS] ![Windows] | |
+| ✅ | [ag] | This plugin provides the ability to search with "ag" (aka the_silver_searcher). | ![Linux] ![macOS] ![Windows] | [ag_] |
+| ✅ | [aspell] | Spellchecking with Aspel. | ![Linux] ![macOS] ![Windows] | [aspell_] |
+| ✅ | [battery] | Shows battery percentage on infobar. | ![Linux] | |
+| ✅ | [calc] | Add calc command for calculating math. | ![Linux] | [calc_] |
+| ✅ | [capitalizer] | A simple micro-editor plugin that allows to capitalize selected text. | ![Linux] ![macOS] ![Windows] | |
+| ✅ | [cheat] | F1 cheatsheet for the language you're editing: Python, Go, Lua... | ![Linux] ![macOS] ![Windows] | |
+| ✅ | [colorschemes] | Colorschemes aggregator. | ![Linux] ![Windows] ![macOS] | |
+| ✅ | [delve] | Integrates golang delve debugger. | ![Linux] ![Windows] ![macOS] | [delve_], `HOME`environment variable |
+| ✅ | [emacs_select] | Emacs-style selection for Micro. | ![Linux] ![Windows] ![macOS] | |
+| ✅ | [filemanager2] | Plugin that allows for easy navigation of a file tree. | ![Linux] ![Windows] ![macOS] | |
+| ✅ | [findinfolder] | Folder search support. | ![Linux] ![macOS] |  [ripgrep], [fzf], [bat] |
+| ✅ | [fzfinder] | Integrate fzf to select and search for your project files. | ![Linux] ![Windows] ![macOS] | [fzf], (Optional) [bat] |
+| ✅ | [gitStatus] | Information about git in status bar. | ![Linux] ![Windows] ![macOS] | [git] |
+| ✅ | [grepsearch] | Using grep to recursively search in files. | ![Linux] ![Windows] ![macOS] | [grep on windows] |
+| ❓️ | [gzplugin] | Read and write .gzip files. | ![Linux] ![Windows] ![macOS] | |
+| ✅ | [language_env] | Syntax highlighting for files with .env extension. | ![Linux] ![Windows] ![macOS] | |
+| ✅ | [language_ignore] | Adds syntax highlighting to 'ignore' files. | ![Linux] ![Windows] ![macOS] | |
+| ✅ | [language_kv] | Syntax highlighting for kvlang. | ![Linux] ![Windows] ![macOS] | |
+| ✅ | [language_log] | Syntax highlighting for files with .log extension. | ![Linux] ![Windows] ![macOS] | |
+| ✅ | [latexplugin] | Latex plugin for Micro editor. Main aim is to provide synctex support. | ![Linux] ![macOS] | [pdflatex], [python] |
+| ✅ | [lintertypescript] | Ability to lint your Typescript (.ts & .tsx) files with tsc. | ![Linux] ![Windows] ![macOS] | [typescript] |
+| ❓️ | [manager] | Provides a way to manage linters, formatters, commands, keybindings, settings, plugins. | ![Linux] ![macOS] | [fzf], unknown... |
+| ✅ | [mdtree] | A plugin for the micro text editor to add sidebar for jumpring and viewing TOC of markdown files. | ![Linux] ![Windows] ![macOS] | |
+| ✅ | [microwiki] | Like vimwiki but for micro. | ![Linux] ![Windows] ![macOS] | |
+| ✅ | [microzim] | Basic manipulation of ZIM-Wiki files. | ![Linux] ![Windows] ![macOS] | |
+| ✅ | [mxc] | The microExecuter. Hit F5 to execute any script from the Micro buffer! | ![Linux] ![macOS] | |
+| ✅ | [nelua] | Nelua support for Micro text editor. | ![Linux] ![Windows] ![macOS] | [nelua_] |
+| ✅ | [nix] | nix-linter plugin and syntax. | ![Linux] ![Windows] ![macOS] | [nix_] |
+| ✅ | [palettero] | Command palette - Ctrl-P to fuzzy search & run commands, textfilters and descriptions | ![Linux] ![macOS] | [fzf], (Optional) [pythonpy] |
+| ✅ | [prettier] | This plugin provides the ability to format your code with Prettier. | ![Linux] ![Windows] ![macOS] | [prettier_] |
+| ✅ | [preview] | A very simple plugin to preview markdown in a second editor pane using pandoc. | ![Linux] ![Windows] ![macOS] | [pandoc] |
+| ✅ | [repfiles] | A filemanager for your git-repository. | ![Linux] ![macOS] | |
+| ✅ | [run] | F5 to save and run, F12 to 'make', F9 to 'make' in background. Go, Python, Lua and executable file (#!) supported. Can 'make' whole project even from subdir. | ![Linux] ![macOS] | Different tools depending on file type, but [firefox-esr] for html |
+| ✅ | [selto] | Simple plugin allowing to quickly select lines. | ![Linux] ![Windows] ![macOS] | |
+| ✅ | [splitterm] | Run a file or a selection of an inerpreted language within a new terminal window. | ![Linux] ![Windows] ![macOS] | |
+| ✅ | [sunny-day] | Port of the Emacs theme by Martin Haesler. | ![Linux] ![Windows] ![macOS] | |
+| ✅ | [testaustime] | Testaustime coding activity tracker for micro. | ![Linux] ![macOS] | |
+| ✅ | [transform] | Plugin to do various kind of text transformations in Micro. | ![Linux] ![Windows] ![macOS] | |
+| ✅ | [urlopen] | A plugin for the micro text editor to add support for opening URLs in text files. | ![macOS] | |
+| ✅ | [wakatime] | Metrics, insights, and time tracking automatically generated from your programming activity. | ![Linux] ![Windows] ![macOS] | |
+| ✅ | [xonsh] | Syntax highlighting for xonsh files. | ![Linux] ![Windows] ![macOS] | |
 
 ## Adding your own plugin
 
