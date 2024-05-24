@@ -1,32 +1,59 @@
-# Micro Plugin Channel
+# 📡 Unofficial Micro Plugin Channel
 
-This repository contains the `channel.json` file which lists all micro plugins. This is where the editor looks to search for plugins to install.
+> [!NOTE]
+> This is an unofficial plugin channel. For the official one, go to [here](https://github.com/micro-editor/plugin-channel/).
+>
+> Unmaintained plugins there will be replaced with the ones here with `unofficial` prefix.
+>
+> This channel is a fork of [the discontinued channel](https://github.com/taconi/plugin-channel) by [taconi](https://github.com/taconi). Credit goes to him
 
-#### This is a fork of the [oficial channel](https://github.com/micro-editor/plugin-channel/) and plugins available there will not be listed here
+## ❓️ Why an unofficial channel?
+
+See [this](https://github.com/zyedidia/micro/issues/2956) and [this](https://github.com/zyedidia/micro/discussions/3285)
+
+Basically, we are having difficulty updating the micro plugin channel and also some of the plugins themselves as we don't have access to merge new changes.
+
+On top of that, I personally would like to do the plugin channel differently. The ability to have a stable and dev channel and easy to understand table for all the plugins.
+
 
 > [!CAUTION]
->
-> This channel has been discontinued, see [#42](https://github.com/taconi/plugin-channel/issues/42) for more details
+> This channel is still work in progress, feel free to star this and come back later. 
 
-> [!Warning]
->
-> This is just a plugin centralizer, plugin owners can change or add versions with malicious codes, I recommend checking each plugin before installing, use at your own risk
+## 🔰 Getting Started
 
-## Settings
+Edit your `settings.json` located in `~/.config/micro` (Unix) or `C:\Users\<your user name>\.config\micro` (Windows)
 
-Add this repository in `~/.config/micro/settings.json`
+There are 2 channels you can choose, stable or main. 
+### Stable
+All the plugins in this channel are located in this repo and checked to not contain malicious code.
+
+`https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/channel.json`
+
+### Main
+All the plugins are located externally with the latest update and is possible to contain malicious code (i.e. supply chain attack).
+
+`https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/channel.json`
+
+> [!IMPORTANT]
+> Although plugins in stable channel are checked where they are malicious or not, I **CANNOT** provide any warranty that they are safe and not responsible in the case damage is caused by any of the plugins.
+
+
+**Stable** is recommended for most people. **Main** if you want to need the latest upstream changes.
+
+**CHOOSE ONE ONLY**
+
+Add the one you want to the `pluginchannels` array in `settings.json`, so like this
 
 ```json
 "pluginchannels": [
-    "https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json",
-    "https://codeberg.org/micro-plugins/plugin-channel/raw/branch/main/channel.json"
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/channel.json"
 ]
 ```
 
-## Plugins
+## 🔌 Plugins
 
-| Name | Description
-|-- | --
+| Name | Description | OS | Requirements |
+|-- | -- | -- | -- |
 | [acme] | An acme style editing plugin for the micro editor.
 | [align] | Simple plugin to align multiple cursors in micro.
 | [ag] | This plugin provides the ability to search with "ag" (aka the_silver_searcher).
