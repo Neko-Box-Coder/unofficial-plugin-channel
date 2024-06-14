@@ -1,45 +1,88 @@
 [
+    //acme
     "https://raw.githubusercontent.com/xxuejie/micro-acme/main/repo.json",
+    //align
     "https://raw.githubusercontent.com/mosskjohnson/align-plugin/master/repo.json",
+    //ag
     "https://raw.githubusercontent.com/sebkolind/micro-ag/master/repo.json",
+    //aspell
     "https://raw.githubusercontent.com/priner/micro-aspell-plugin/master/repo.json",
+    //battery
     "https://raw.githubusercontent.com/dubyte/micro-battery/main/repo.json",
+    //calc
     "https://notabug.org/dustdfg/micro-calc/raw/master/repo.json",
+    //capitalizer
     "https://raw.githubusercontent.com/CodeGiorgino/capitalizer/master/capitalizer.json",
+    //cheat
     "https://raw.githubusercontent.com/terokarvinen/micro-cheat/main/repo.json",
+    //colorschemes
     "https://codeberg.org/micro-plugins/colorschemes/raw/branch/main/repo.json",
+    //delve
     "https://raw.githubusercontent.com/serge-v/micro-delve/main/repo.json",
+    //emacs_select
     "https://raw.githubusercontent.com/kesslern/micro-emacs-select/main/repo.json",
+    //filemanager2
     "https://codeberg.org/micro-plugins/filemanager2/raw/branch/main/repo.json",
+    //findinfolder
     "https://codeberg.org/micro-plugins/findinfolder/raw/branch/main/repo.json",
+    //fzfinder
     "https://raw.githubusercontent.com/MuratovAS/micro-fzfinder/main/repo.json",
+    //gitStatus
     "https://codeberg.org/micro-plugins/git-status/raw/branch/main/repo.json",
+    //grepsearch
     "https://raw.githubusercontent.com/gaenseklein/grepsearch/main/repo.json",
+    //gzplugin
     "https://raw.githubusercontent.com/dzmanto/gzplugin4micro/master/repo.json",  
+    //language_env
     "https://codeberg.org/micro-plugins/language-env/raw/branch/main/repo.json",
+    //language_ignore
     "https://codeberg.org/micro-plugins/language-ignore/raw/branch/main/repo.json",
+    //language_kv
     "https://codeberg.org/micro-plugins/language-kv/raw/branch/main/repo.json",
+    //language_log
     "https://codeberg.org/micro-plugins/language-log/raw/branch/main/repo.json",
+    //latexplugin
     "https://raw.githubusercontent.com/chykcha3/micro-plugin-latex/main/repo.json",
+    //lintertypescript
     "https://raw.githubusercontent.com/sebkolind/micro-linter-typescript/master/repo.json",
+    //manager
     "https://codeberg.org/micro-plugins/manager/raw/branch/main/repo.json",
+    //mdtree
     "https://notabug.org/dustdfg/micro-mdtree/raw/master/repo.json",
+    //microwiki
     "https://raw.githubusercontent.com/obedm503/microwiki/master/repo.json",
+    //microzim
     "https://raw.githubusercontent.com/ihavenomouth/microzim/main/repo.json",
+    //mxc
     "https://raw.githubusercontent.com/cadnza/mxc/main/repo.json",
+    //nelua
     "https://raw.githubusercontent.com/leap0x7b/micro-nelua-plugin/main/repo.json",
+    //nix
     "https://raw.githubusercontent.com/vandervoortj/nix-micro-plugin/main/repo.json",
+    //palettero
     "https://raw.githubusercontent.com/terokarvinen/palettero/main/repo.json",
+    //prettier
     "https://raw.githubusercontent.com/sebkolind/micro-prettier/master/repo.json",
+    //preview
     "https://raw.githubusercontent.com/weebi/micro-preview/master/repo.json",
+    //repfiles
     "https://raw.githubusercontent.com/gaenseklein/repfiles/main/repo.json",
+    //run
     "https://raw.githubusercontent.com/terokarvinen/micro-run/main/repo.json",
+    //selto
     "https://raw.githubusercontent.com/PawelMTRK/micro-selto-plugin/main/repo.json",
+    //splitterm
     "https://raw.githubusercontent.com/lukhof/splitterm/main/repo.json",
+    //sunny-day
     "https://raw.githubusercontent.com/dwwmmn/micro-sunny-day/master/repo.json",
+    //testaustime
     "https://raw.githubusercontent.com/SuSonicTH/micro-transform/master/repo.json",
+    //transform
     "https://raw.githubusercontent.com/Testaustime/testaustime-micro/master/repo.json",
+    //urlopen
     "https://raw.githubusercontent.com/pjg11/micro-urlopen/main/repo.json",
+    //wakatime
     "https://raw.githubusercontent.com/wakatime/micro-wakatime/master/repo.json",    
+    //xonsh
     "https://codeberg.org/micro-plugins/xonsh/raw/branch/main/repo.json"    
 ]
