@@ -46,7 +46,7 @@ All the plugins are located externally with the latest update and is possible to
 ```
 
 > [!IMPORTANT]
-> Although plugins in stable channel are checked where they are malicious or not, I **CANNOT** provide any warranty that they are safe and not responsible in the case damage is caused by any of the plugins.
+> Although plugins in stable channel are checked where they are malicious or not, I **CANNOT** provide any warranty and not responsible in case damage is caused by any of the plugins.
 
 ## 🔌 Plugins
 
