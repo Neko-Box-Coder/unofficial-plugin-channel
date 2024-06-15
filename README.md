@@ -96,11 +96,20 @@ All the plugins are located externally with the latest update and is possible to
 | ✅ | [wakatime] | Metrics, insights, and time tracking automatically generated from your programming activity. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [xonsh] | Syntax highlighting for xonsh files. | ![Linux] ![Windows] ![macOS] | |
 
-## Adding your own plugin
+## ➕ Adding a plugin
 
-TODO
+1. Create a PR to `main`
+2. Modify `README.md` for the plugin. Remember it is in alphabatical order.
+3. Modify `channel.json` to point to `repo.json` in the plugin repo.
+4. Modify `PLUGINS_TO_STABLE.md` and add the name of the plugin
 
-<!-- Collaboration is super welcome! See [CONTRIBUTING.md](https://codeberg.org/micro-plugins/plugin-channel/src/branch/main/CONTRIBUTING.md). -->
+## 🔼 Updating a plugin for both main and stable
+1. Create a PR to `main`
+2. Modify `README.md` for the plugin if needed
+3. Modify `channel.json` if `repo.json` is in a different url
+4. Modify `PLUGINS_TO_STABLE.md` and add the name of the plugin
+5. If there's any change needed to be made to `stable`, specify in PR.
+
 
 [acme]: https://github.com/xxuejie/micro-acme
 [align]: https://github.com/mosskjohnson/align-plugin
