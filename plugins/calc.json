@@ -1,0 +1,14 @@
+[{
+	"Name": "calc",
+	"Description": "A plugin for the micro text editor to add calc command for calculating math",
+	"Tags": ["math"],
+	"Website": "https://notabug.org/dustdfg/micro-calc",
+	"License": "MIT",
+	"Versions": [{
+		"Version": "1.0.0",
+        "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/calc-1.0.0.zip",
+		"Require": {
+			"micro": ">=2.0.13"
+		}
+	}]
+}]

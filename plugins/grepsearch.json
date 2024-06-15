@@ -1,0 +1,17 @@
+[
+	{
+		"Name": "grepsearch",
+		"Description": "using grep to recursively search in files",
+		"Tags": ["search"],
+        "Website": "https://github.com/gaenseklein/grepsearch",
+		"Versions": [
+			{
+				"Version": "1.0.0",
+                "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/grepsearch-1.0.0.zip",
+				"Require": {
+					"micro": ">=1.3.2"
+				}
+			}
+		]
+	}
+]

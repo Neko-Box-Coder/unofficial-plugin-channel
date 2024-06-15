@@ -1,88 +1,88 @@
 [
     //acme
-    "https://raw.githubusercontent.com/xxuejie/micro-acme/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/acme.json",
     //align
-    "https://raw.githubusercontent.com/mosskjohnson/align-plugin/master/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/align.json",
     //ag
-    "https://raw.githubusercontent.com/sebkolind/micro-ag/master/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/ag.json",
     //aspell
-    "https://raw.githubusercontent.com/priner/micro-aspell-plugin/master/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/aspell.json",
     //battery
-    "https://raw.githubusercontent.com/dubyte/micro-battery/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/battery.json",
     //calc
-    "https://notabug.org/dustdfg/micro-calc/raw/master/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/calc.json",
     //capitalizer
-    "https://raw.githubusercontent.com/CodeGiorgino/capitalizer/master/capitalizer.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/capitalizer.json",
     //cheat
-    "https://raw.githubusercontent.com/terokarvinen/micro-cheat/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/cheat.json",
     //colorschemes
-    "https://codeberg.org/micro-plugins/colorschemes/raw/branch/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/colorschemes.json",
     //delve
-    "https://raw.githubusercontent.com/serge-v/micro-delve/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/delve.json",
     //emacs_select
-    "https://raw.githubusercontent.com/kesslern/micro-emacs-select/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/emacs_select.json",
     //filemanager2
-    "https://codeberg.org/micro-plugins/filemanager2/raw/branch/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/filemanager2.json",
     //findinfolder
-    "https://codeberg.org/micro-plugins/findinfolder/raw/branch/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/findinfolder.json",
     //fzfinder
-    "https://raw.githubusercontent.com/MuratovAS/micro-fzfinder/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/fzfinder.json",
     //gitStatus
-    "https://codeberg.org/micro-plugins/git-status/raw/branch/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/gitStatus.json",
     //grepsearch
-    "https://raw.githubusercontent.com/gaenseklein/grepsearch/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/grepsearch.json",
     //gzplugin
-    "https://raw.githubusercontent.com/dzmanto/gzplugin4micro/master/repo.json",  
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/gzplugin.json",
     //language_env
-    "https://codeberg.org/micro-plugins/language-env/raw/branch/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/language_env.json",
     //language_ignore
-    "https://codeberg.org/micro-plugins/language-ignore/raw/branch/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/language_ignore.json",
     //language_kv
-    "https://codeberg.org/micro-plugins/language-kv/raw/branch/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/language_kv.json",
     //language_log
-    "https://codeberg.org/micro-plugins/language-log/raw/branch/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/language_log.json",
     //latexplugin
-    "https://raw.githubusercontent.com/chykcha3/micro-plugin-latex/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/latexplugin.json",
     //lintertypescript
-    "https://raw.githubusercontent.com/sebkolind/micro-linter-typescript/master/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/lintertypescript.json",
     //manager
-    "https://codeberg.org/micro-plugins/manager/raw/branch/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/manager.json",
     //mdtree
-    "https://notabug.org/dustdfg/micro-mdtree/raw/master/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/mdtree.json",
     //microwiki
-    "https://raw.githubusercontent.com/obedm503/microwiki/master/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/microwiki.json",
     //microzim
-    "https://raw.githubusercontent.com/ihavenomouth/microzim/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/microzim.json",
     //mxc
-    "https://raw.githubusercontent.com/cadnza/mxc/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/mxc.json",
     //nelua
-    "https://raw.githubusercontent.com/leap0x7b/micro-nelua-plugin/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/nelua.json",
     //nix
-    "https://raw.githubusercontent.com/vandervoortj/nix-micro-plugin/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/nix.json",
     //palettero
-    "https://raw.githubusercontent.com/terokarvinen/palettero/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/palettero.json",
     //prettier
-    "https://raw.githubusercontent.com/sebkolind/micro-prettier/master/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/prettier.json",
     //preview
-    "https://raw.githubusercontent.com/weebi/micro-preview/master/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/preview.json",
     //repfiles
-    "https://raw.githubusercontent.com/gaenseklein/repfiles/main/repo.json",
-    //run
-    "https://raw.githubusercontent.com/terokarvinen/micro-run/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/repfiles.json",
+    //runit
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/runit.json",
     //selto
-    "https://raw.githubusercontent.com/PawelMTRK/micro-selto-plugin/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/selto.json",
     //splitterm
-    "https://raw.githubusercontent.com/lukhof/splitterm/main/repo.json",
-    //sunny-day
-    "https://raw.githubusercontent.com/dwwmmn/micro-sunny-day/master/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/splitterm.json",
+    //sunny-day-theme
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/sunny-day-theme.json",
     //testaustime
-    "https://raw.githubusercontent.com/SuSonicTH/micro-transform/master/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/testaustime.json",
     //transform
-    "https://raw.githubusercontent.com/Testaustime/testaustime-micro/master/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/transform.json",
     //urlopen
-    "https://raw.githubusercontent.com/pjg11/micro-urlopen/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/urlopen.json",
     //wakatime
-    "https://raw.githubusercontent.com/wakatime/micro-wakatime/master/repo.json",    
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/wakatime.json",
     //xonsh
-    "https://codeberg.org/micro-plugins/xonsh/raw/branch/main/repo.json"    
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/xonsh.json"
 ]

@@ -1,0 +1,15 @@
+[{
+  "Name": "microzim",
+  "Description": "Basic manipulation of ZIM-Wiki files",
+  "Tags": ["ZIM", "ZIM-Wiki"],
+  "Website": "https://github.com/ihavenomouth/microzim",
+  "Versions": [
+    {
+      "Version": "0.1.1",
+      "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/microzim-0.1.1.zip",
+      "Require": {
+        "micro": ">=2.0.0"
+      }
+    }
+  ]
+}]

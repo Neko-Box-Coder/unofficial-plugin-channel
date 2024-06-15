@@ -1,0 +1,21 @@
+[
+  {
+    "Name": "testaustime",
+    "Description": "Testaustime coding activity tracker for micro",
+    "Website": "https://github.com/testaustime/testaustime-micro",
+    "Tags": [
+      "testaustime",
+      "time tracking",
+      "productivity"
+    ],
+    "Versions": [
+      {
+        "Version": "1.0.0",
+        "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/testaustime-1.0.0.zip",
+        "Require": {
+          "micro": ">=2.0.0"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "Name": "findinfolder",
+    "Description": "Search for a term in all files",
+    "Tags": [
+      "CRTL+SHIFT+F",
+      "find-in-folder",
+      "find in folder",
+      "find folder",
+      "search folder",
+      "search",
+      "find"
+    ],
+    "Website": "https://codeberg.org/micro-plugins/findinfolder",
+    "Versions": [
+      {
+        "Version": "1.1.1",
+        "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/findinfolder-1.1.1.zip",
+        "Require": {
+          "micro": ">=2.0.12"
+        }
+      }
+    ]
+  }
+]

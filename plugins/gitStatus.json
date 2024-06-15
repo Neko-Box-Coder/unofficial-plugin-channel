@@ -1,0 +1,21 @@
+[
+    {
+        "Description": "Information about git in status bar.",
+        "License": "GPL-3.0-or-later",
+        "Name": "gitStatus",
+        "Tags": [
+            "git",
+            "status"
+        ],
+        "Versions": [
+            {
+                "Require": {
+                    "micro": ">=2.0.12"
+                },
+                "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/gitStatus-0.1.2.zip",
+                "Version": "0.1.2"
+            }
+        ],
+        "Website": "https://codeberg.org/micro-plugins/git-status"
+    }
+]

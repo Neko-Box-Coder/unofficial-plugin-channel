@@ -1,0 +1,23 @@
+[
+    {
+        "Description": "File manager for Micro",
+        "License": "MIT",
+        "Name": "filemanager2",
+        "Tags": [
+            "filetree",
+            "filemanager",
+            "file",
+            "manager"
+        ],
+        "Versions": [
+            {
+                "Require": {
+                    "micro": ">=2.0.13"
+                },
+                "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/filemanager2-1.2.2.zip",
+                "Version": "1.2.2"
+            }
+        ],
+        "Website": "https://codeberg.org/micro-plugins/filemanager2"
+    }
+]

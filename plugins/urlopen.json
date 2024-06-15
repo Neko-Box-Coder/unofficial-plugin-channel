@@ -1,0 +1,16 @@
+[{
+  "Name": "urlopen",
+  "Description": "A plugin for the micro text editor to add support for opening URLs in text files.",
+  "Tags": ["urlopen"],
+  "Website": "https://github.com/pjg11/micro-urlopen",
+  "License": "MIT",
+  "Versions": [
+    {
+      "Version": "0.0.0",
+      "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/urlopen-0.0.0.zip",
+      "Require": {
+        "micro": ">=2.0.13"
+      }
+    }
+  ]
+}]

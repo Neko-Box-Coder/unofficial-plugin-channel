@@ -1,0 +1,15 @@
+[{
+  "Name": "aspell",
+  "Description": "Spellchecking with Aspell",
+  "Tags": ["spellchecking", "spelling", "aspell", "spellchecker"],
+  "Website": "https://github.com/priner/micro-aspell-plugin",
+  "Versions": [
+    {
+      "Version": "1.3.0",
+      "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/aspell-1.3.0.zip",
+      "Require": {
+        "micro": ">=2.0.7"
+      }
+    }
+  ]
+}]

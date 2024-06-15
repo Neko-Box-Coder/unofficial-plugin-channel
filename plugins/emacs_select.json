@@ -1,0 +1,14 @@
+[{
+	"Name": "emacs_select",
+	"Description": "add emacs-like selection",
+	"Tags": ["select", "emacs"],
+	"Versions": [
+		{
+  			"Version": "1.0.0",
+            "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/emacs_select-1.0.0.zip",
+ 			"Require": {
+  				"micro": ">=2.0.0"
+			}
+		}
+	]
+}]
