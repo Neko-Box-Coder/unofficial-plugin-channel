@@ -15,40 +15,38 @@ Basically, we are having difficulty updating the micro plugin channel and also s
 
 On top of that, I personally would like to do the plugin channel differently. The ability to have a stable and dev channel and easy to understand table for all the plugins.
 
-
-> [!CAUTION]
-> This channel is still work in progress, feel free to star this and come back later. 
-
 ## 🔰 Getting Started
 
 Edit your `settings.json` located in `~/.config/micro` (Unix) or `C:\Users\<your user name>\.config\micro` (Windows)
 
 There are 2 channels you can choose, stable or main. 
-### Stable
-All the plugins in this channel are located in this repo and checked to not contain malicious code.
-
-`https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/channel.json`
-
-### Main
-All the plugins are located externally with the latest update and is possible to contain malicious code (i.e. supply chain attack).
-
-`https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/channel.json`
-
-> [!IMPORTANT]
-> Although plugins in stable channel are checked where they are malicious or not, I **CANNOT** provide any warranty that they are safe and not responsible in the case damage is caused by any of the plugins.
-
 
 **Stable** is recommended for most people. **Main** if you want to need the latest upstream changes.
 
 **CHOOSE ONE ONLY**
 
-Add the one you want to the `pluginchannels` array in `settings.json`, so like this
+Add the one you want to the `pluginchannels` array in `settings.json`, 
+
+### Stable
+All the plugins in this channel are located in this repo and checked to not contain malicious code.
 
 ```json
 "pluginchannels": [
-    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/channel.json"
+    https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/channel.json
 ]
 ```
+
+### Main
+All the plugins are located externally with the latest update and is possible to contain malicious code (i.e. supply chain attack).
+
+```json
+"pluginchannels": [
+    https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/channel.json
+]
+```
+
+> [!IMPORTANT]
+> Although plugins in stable channel are checked where they are malicious or not, I **CANNOT** provide any warranty that they are safe and not responsible in the case damage is caused by any of the plugins.
 
 ## 🔌 Plugins
 
