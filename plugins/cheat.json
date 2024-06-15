@@ -1,0 +1,16 @@
+[{
+  "Name": "cheat",
+  "Description": "F1 for cheatsheet related to the type of file you're editing: Lua, Go, Python...",
+  "Website": "https://terokarvinen.com/micro",
+  "Tags": ["cheatsheet", "help", "docs", "Lua", "Go", "Python", "reference"],
+  "License": "MIT license",
+  "Versions": [
+    {
+      "Version": "0.0.4",
+      "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/cheat-0.0.4.zip",
+      "Require": {
+        "micro": ">=2.0.0"
+      }
+    }
+  ]
+}]

@@ -1,0 +1,15 @@
+[{
+  "Name": "ag",
+  "Description": "A search plugin using ag",
+  "Website": "https://github.com/sebkolind/micro-ag",
+  "Tags": ["searching", "ag"],
+  "Versions": [
+    {
+      "Version": "1.0.0",
+      "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/ag-1.0.0.zip",
+      "Require": {
+        "micro": ">=2.0.0"
+      }
+    }
+  ]
+}]

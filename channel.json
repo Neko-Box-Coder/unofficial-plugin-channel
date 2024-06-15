@@ -67,13 +67,13 @@
     "https://raw.githubusercontent.com/weebi/micro-preview/master/repo.json",
     //repfiles
     "https://raw.githubusercontent.com/gaenseklein/repfiles/main/repo.json",
-    //run
+    //runit
     "https://raw.githubusercontent.com/terokarvinen/micro-run/main/repo.json",
     //selto
     "https://raw.githubusercontent.com/PawelMTRK/micro-selto-plugin/main/repo.json",
     //splitterm
     "https://raw.githubusercontent.com/lukhof/splitterm/main/repo.json",
-    //sunny-day
+    //sunny-day-theme
     "https://raw.githubusercontent.com/dwwmmn/micro-sunny-day/master/repo.json",
     //testaustime
     "https://raw.githubusercontent.com/SuSonicTH/micro-transform/master/repo.json",

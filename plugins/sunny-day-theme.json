@@ -1,0 +1,25 @@
+[
+    {
+        "Name": "sunny-day-theme",
+        "Description": "A color theme with muddy tones against a light yellow background.",
+        "Tags": [
+            "sunny-day",
+            "colors",
+            "color",
+            "themes",
+            "theme",
+            "colorschemes",
+            "colorscheme",
+            "light"
+        ],
+        "Versions": [
+            {
+                "Version": "0.1.2",
+                "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/sunny-day-theme-0.1.2.zip",
+                "Require": {
+                    "micro": ">=2.0.11"
+                }
+            }
+        ]
+    }
+]
