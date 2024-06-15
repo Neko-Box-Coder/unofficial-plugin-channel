@@ -3,7 +3,7 @@
 > [!NOTE]
 > This is an unofficial plugin channel. For the official one, go to [here](https://github.com/micro-editor/plugin-channel/).
 >
-> Unmaintained plugins there will be replaced with the ones here with `unofficial` prefix.
+> <s>Unmaintained plugins there will be replaced with the ones here with `unofficial` prefix.</s> (WIP)
 >
 > This channel is a fork of [the discontinued channel](https://github.com/taconi/plugin-channel) by [taconi](https://github.com/taconi). Credit goes to him
 
