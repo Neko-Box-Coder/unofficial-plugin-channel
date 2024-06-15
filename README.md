@@ -3,7 +3,7 @@
 > [!NOTE]
 > This is an unofficial plugin channel. For the official one, go to [here](https://github.com/micro-editor/plugin-channel/).
 >
-> Unmaintained plugins there will be replaced with the ones here with `unofficial` prefix.
+> <s>Unmaintained plugins there will be replaced with the ones here with `unofficial` prefix.</s> (WIP)
 >
 > This channel is a fork of [the discontinued channel](https://github.com/taconi/plugin-channel) by [taconi](https://github.com/taconi). Credit goes to him
 
@@ -86,10 +86,10 @@ All the plugins are located externally with the latest update and is possible to
 | ✅ | [prettier] | This plugin provides the ability to format your code with Prettier. | ![Linux] ![Windows] ![macOS] | [prettier_] |
 | ✅ | [preview] | A very simple plugin to preview markdown in a second editor pane using pandoc. | ![Linux] ![Windows] ![macOS] | [pandoc] |
 | ✅ | [repfiles] | A filemanager for your git-repository. | ![Linux] ![macOS] | |
-| ✅ | [run] | F5 to save and run, F12 to 'make', F9 to 'make' in background. Go, Python, Lua and executable file (#!) supported. Can 'make' whole project even from subdir. | ![Linux] ![macOS] | Different tools depending on file type, but [firefox-esr] for html |
+| ✅ | [runit] | F5 to save and run, F12 to 'make', F9 to 'make' in background. Go, Python, Lua and executable file (#!) supported. Can 'make' whole project even from subdir. | ![Linux] ![macOS] | Different tools depending on file type, but [firefox-esr] for html |
 | ✅ | [selto] | Simple plugin allowing to quickly select lines. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [splitterm] | Run a file or a selection of an inerpreted language within a new terminal window. | ![Linux] ![Windows] ![macOS] | |
-| ✅ | [sunny-day] | Port of the Emacs theme by Martin Haesler. | ![Linux] ![Windows] ![macOS] | |
+| ✅ | [sunny-day-theme] | Port of the Emacs theme by Martin Haesler. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [testaustime] | Testaustime coding activity tracker for micro. | ![Linux] ![macOS] | |
 | ✅ | [transform] | Plugin to do various kind of text transformations in Micro. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [urlopen] | A plugin for the micro text editor to add support for opening URLs in text files. | ![macOS] | |
@@ -99,8 +99,8 @@ All the plugins are located externally with the latest update and is possible to
 ## ➕ Adding a plugin
 
 1. Create a PR to `main`
-2. Modify `README.md` for the plugin. Remember it is in alphabatical order.
-3. Modify `channel.json` to point to `repo.json` in the plugin repo.
+2. Modify `README.md` and add an entry to the plugin (The name **MUST** match the `repo.json`). Remember it is in alphabatical order.
+3. Modify `channel.json` to point to `repo.json` in the plugin repo. Remember it is in alphabatical order.
 4. Modify `PLUGINS_TO_STABLE.md` and add the name of the plugin
 
 ## 🔼 Updating a plugin for both main and stable
@@ -145,10 +145,10 @@ All the plugins are located externally with the latest update and is possible to
 [prettier]: https://github.com/sebkolind/micro-prettier
 [preview]: https://github.com/weebi/micro-preview
 [repfiles]: https://github.com/gaenseklein/repfiles
-[run]: https://github.com/terokarvinen/micro-run
+[runit]: https://github.com/terokarvinen/micro-run
 [selto]: https://github.com/PawelMTRK/micro-selto-plugin
 [splitterm]: https://github.com/lukhof/splitterm
-[sunny-day]: https://github.com/dwwmmn/micro-sunny-day
+[sunny-day-theme]: https://github.com/dwwmmn/micro-sunny-day
 [testaustime]: https://github.com/testaustime/testaustime-micro
 [transform]: https://github.com/SuSonicTH/micro-transform
 [urlopen]: https://github.com/pjg11/micro-urlopen

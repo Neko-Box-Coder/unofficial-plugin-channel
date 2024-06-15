@@ -11,8 +11,8 @@ Checklist:
 ## ➕ Adding a plugin
 
 - [ ] Create a PR to `main`
-- [ ] Modify `README.md` for the plugin. Remember it is in alphabatical order.
-- [ ] Modify `channel.json` to point to `repo.json` in the plugin repo.
+- [ ] Modify `README.md` and add an entry to the plugin (The name **MUST** match the `repo.json`). Remember it is in alphabatical order.
+- [ ] Modify `channel.json` to point to `repo.json` in the plugin repo. Remember it is in alphabatical order.
 - [ ] Modify `PLUGINS_TO_STABLE.md` and add the name of the plugin
 
 ## 🔼 Updating a plugin for both main and stable
