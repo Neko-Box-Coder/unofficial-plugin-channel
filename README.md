@@ -3,7 +3,7 @@
 > [!NOTE]
 > This is an unofficial plugin channel. For the official one, go to [here](https://github.com/micro-editor/plugin-channel/).
 >
-> Unmaintained plugins there will be replaced with the ones here with `unofficial` prefix.
+> <s>Unmaintained plugins there will be replaced with the ones here with `unofficial` prefix.</s> (WIP)
 >
 > This channel is a fork of [the discontinued channel](https://github.com/taconi/plugin-channel) by [taconi](https://github.com/taconi). Credit goes to him
 
@@ -15,40 +15,38 @@ Basically, we are having difficulty updating the micro plugin channel and also s
 
 On top of that, I personally would like to do the plugin channel differently. The ability to have a stable and dev channel and easy to understand table for all the plugins.
 
-
-> [!CAUTION]
-> This channel is still work in progress, feel free to star this and come back later. 
-
 ## 🔰 Getting Started
 
 Edit your `settings.json` located in `~/.config/micro` (Unix) or `C:\Users\<your user name>\.config\micro` (Windows)
 
 There are 2 channels you can choose, stable or main. 
-### Stable
-All the plugins in this channel are located in this repo and checked to not contain malicious code.
-
-`https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/channel.json`
-
-### Main
-All the plugins are located externally with the latest update and is possible to contain malicious code (i.e. supply chain attack).
-
-`https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/channel.json`
-
-> [!IMPORTANT]
-> Although plugins in stable channel are checked where they are malicious or not, I **CANNOT** provide any warranty that they are safe and not responsible in the case damage is caused by any of the plugins.
-
 
 **Stable** is recommended for most people. **Main** if you want to need the latest upstream changes.
 
 **CHOOSE ONE ONLY**
 
-Add the one you want to the `pluginchannels` array in `settings.json`, so like this
+Add the one you want to the `pluginchannels` array in `settings.json`, 
+
+### Stable
+All the plugins in this channel are located in this repo and checked to not contain malicious code.
 
 ```json
 "pluginchannels": [
-    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/channel.json"
+    https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/channel.json
 ]
 ```
+
+### Main
+All the plugins are located externally with the latest update and is possible to contain malicious code (i.e. supply chain attack).
+
+```json
+"pluginchannels": [
+    https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/channel.json
+]
+```
+
+> [!IMPORTANT]
+> Although plugins in stable channel are checked where they are malicious or not, I **CANNOT** provide any warranty that they are safe and not responsible in the case damage is caused by any of the plugins.
 
 ## 🔌 Plugins
 
@@ -98,11 +96,20 @@ Add the one you want to the `pluginchannels` array in `settings.json`, so like t
 | ✅ | [wakatime] | Metrics, insights, and time tracking automatically generated from your programming activity. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [xonsh] | Syntax highlighting for xonsh files. | ![Linux] ![Windows] ![macOS] | |
 
-## Adding your own plugin
+## ➕ Adding a plugin
 
-TODO
+1. Create a PR to `main`
+2. Modify `README.md` for the plugin. Remember it is in alphabatical order.
+3. Modify `channel.json` to point to `repo.json` in the plugin repo.
+4. Modify `PLUGINS_TO_STABLE.md` and add the name of the plugin
 
-<!-- Collaboration is super welcome! See [CONTRIBUTING.md](https://codeberg.org/micro-plugins/plugin-channel/src/branch/main/CONTRIBUTING.md). -->
+## 🔼 Updating a plugin for both main and stable
+1. Create a PR to `main`
+2. Modify `README.md` for the plugin if needed
+3. Modify `channel.json` if `repo.json` is in a different url
+4. Modify `PLUGINS_TO_STABLE.md` and add the name of the plugin
+5. If there's any change needed to be made to `stable`, specify in PR.
+
 
 [acme]: https://github.com/xxuejie/micro-acme
 [align]: https://github.com/mosskjohnson/align-plugin
