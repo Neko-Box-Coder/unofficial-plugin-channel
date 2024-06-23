@@ -22,7 +22,7 @@
     //emacs_select
     "https://raw.githubusercontent.com/kesslern/micro-emacs-select/main/repo.json",
     //filemanager2
-    "https://codeberg.org/micro-plugins/filemanager2/raw/branch/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/filemanager2/main/repo.json",
     //findinfolder
     "https://codeberg.org/micro-plugins/findinfolder/raw/branch/main/repo.json",
     //fzfinder
