@@ -32,7 +32,7 @@ All the plugins in this channel are located in this repo and checked to not cont
 
 ```json
 "pluginchannels": [
-    https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/channel.json
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/channel.json"
 ]
 ```
 
@@ -41,7 +41,7 @@ All the plugins are located externally with the latest update and is possible to
 
 ```json
 "pluginchannels": [
-    https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/channel.json
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/channel.json"
 ]
 ```
 
