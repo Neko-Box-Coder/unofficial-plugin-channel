@@ -92,6 +92,7 @@ All the plugins are located externally with the latest update and is possible to
 | ✅ | [sunny-day-theme] | Port of the Emacs theme by Martin Haesler. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [testaustime] | Testaustime coding activity tracker for micro. | ![Linux] ![macOS] | |
 | ✅ | [transform] | Plugin to do various kind of text transformations in Micro. | ![Linux] ![Windows] ![macOS] | |
+| ❓️ | [uchardet] | Encoding detection. | ![Linux] ![Windows] ![macOS] | [uchardet_] |
 | ✅ | [urlopen] | A plugin for the micro text editor to add support for opening URLs in text files. | ![macOS] | |
 | ✅ | [wakatime] | Metrics, insights, and time tracking automatically generated from your programming activity. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [xonsh] | Syntax highlighting for xonsh files. | ![Linux] ![Windows] ![macOS] | |
@@ -151,6 +152,7 @@ All the plugins are located externally with the latest update and is possible to
 [sunny-day-theme]: https://github.com/dwwmmn/micro-sunny-day
 [testaustime]: https://github.com/testaustime/testaustime-micro
 [transform]: https://github.com/SuSonicTH/micro-transform
+[uchardet]: https://github.com/niten94/micro-uchardet
 [urlopen]: https://github.com/pjg11/micro-urlopen
 [wakatime]: https://github.com/wakatime/micro-wakatime
 [xonsh]: https://codeberg.org/micro-plugins/xonsh
@@ -184,4 +186,5 @@ All the plugins are located externally with the latest update and is possible to
 [prettier_]: https://github.com/prettier/prettier
 [pandoc]: https://github.com/jgm/pandoc
 [firefox-esr]: https://www.mozilla.org/en-US/firefox/
+[uchardet_]: https://www.freedesktop.org/wiki/Software/uchardet/
 

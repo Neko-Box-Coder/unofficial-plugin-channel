@@ -79,6 +79,8 @@
     "https://raw.githubusercontent.com/SuSonicTH/micro-transform/master/repo.json",
     //transform
     "https://raw.githubusercontent.com/Testaustime/testaustime-micro/master/repo.json",
+    //uchardet
+    "https://raw.githubusercontent.com/niten94/micro-uchardet/master/repo.json",
     //urlopen
     "https://raw.githubusercontent.com/pjg11/micro-urlopen/main/repo.json",
     //wakatime
