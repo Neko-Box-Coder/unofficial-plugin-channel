@@ -3,4 +3,5 @@
 Put the name of the plugin as a list item here, So like
 - filemanager2
 -->
+- uchardet
 - filemanager2

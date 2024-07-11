@@ -32,7 +32,7 @@ All the plugins in this channel are located in this repo and checked to not cont
 
 ```json
 "pluginchannels": [
-    https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/channel.json
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/channel.json"
 ]
 ```
 
@@ -41,7 +41,7 @@ All the plugins are located externally with the latest update and is possible to
 
 ```json
 "pluginchannels": [
-    https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/channel.json
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/channel.json"
 ]
 ```
 
@@ -55,7 +55,7 @@ All the plugins are located externally with the latest update and is possible to
 | ✅ | [acme] | An acme style editing plugin for the micro editor. | ![Linux] ![macOS] | |
 | ✅ | [align] | Simple plugin to align multiple cursors in micro. | ![Linux] ![macOS] ![Windows] | |
 | ✅ | [ag] | This plugin provides the ability to search with "ag" (aka the_silver_searcher). | ![Linux] ![macOS] ![Windows] | [ag_] |
-| ✅ | [aspell] | Spellchecking with Aspel. | ![Linux] ![macOS] ![Windows] | [aspell_] |
+| ✅ | [aspell] | Spellchecking with Aspell. | ![Linux] ![macOS] ![Windows] | [aspell_] |
 | ✅ | [battery] | Shows battery percentage on infobar. | ![Linux] | |
 | ✅ | [calc] | Add calc command for calculating math. | ![Linux] | [calc_] |
 | ✅ | [capitalizer] | A simple micro-editor plugin that allows to capitalize selected text. | ![Linux] ![macOS] ![Windows] | |
@@ -92,6 +92,7 @@ All the plugins are located externally with the latest update and is possible to
 | ✅ | [sunny-day-theme] | Port of the Emacs theme by Martin Haesler. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [testaustime] | Testaustime coding activity tracker for micro. | ![Linux] ![macOS] | |
 | ✅ | [transform] | Plugin to do various kind of text transformations in Micro. | ![Linux] ![Windows] ![macOS] | |
+| ❓️ | [uchardet] | Encoding detection. | ![Linux] ![Windows] ![macOS] | [uchardet_] |
 | ✅ | [urlopen] | A plugin for the micro text editor to add support for opening URLs in text files. | ![macOS] | |
 | ✅ | [wakatime] | Metrics, insights, and time tracking automatically generated from your programming activity. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [xonsh] | Syntax highlighting for xonsh files. | ![Linux] ![Windows] ![macOS] | |
@@ -151,6 +152,7 @@ All the plugins are located externally with the latest update and is possible to
 [sunny-day-theme]: https://github.com/dwwmmn/micro-sunny-day
 [testaustime]: https://github.com/testaustime/testaustime-micro
 [transform]: https://github.com/SuSonicTH/micro-transform
+[uchardet]: https://github.com/niten94/micro-uchardet
 [urlopen]: https://github.com/pjg11/micro-urlopen
 [wakatime]: https://github.com/wakatime/micro-wakatime
 [xonsh]: https://codeberg.org/micro-plugins/xonsh
@@ -184,4 +186,5 @@ All the plugins are located externally with the latest update and is possible to
 [prettier_]: https://github.com/prettier/prettier
 [pandoc]: https://github.com/jgm/pandoc
 [firefox-esr]: https://www.mozilla.org/en-US/firefox/
+[uchardet_]: https://www.freedesktop.org/wiki/Software/uchardet/
 
