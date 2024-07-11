@@ -55,7 +55,7 @@ All the plugins are located externally with the latest update and is possible to
 | ✅ | [acme] | An acme style editing plugin for the micro editor. | ![Linux] ![macOS] | |
 | ✅ | [align] | Simple plugin to align multiple cursors in micro. | ![Linux] ![macOS] ![Windows] | |
 | ✅ | [ag] | This plugin provides the ability to search with "ag" (aka the_silver_searcher). | ![Linux] ![macOS] ![Windows] | [ag_] |
-| ✅ | [aspell] | Spellchecking with Aspel. | ![Linux] ![macOS] ![Windows] | [aspell_] |
+| ✅ | [aspell] | Spellchecking with Aspell. | ![Linux] ![macOS] ![Windows] | [aspell_] |
 | ✅ | [battery] | Shows battery percentage on infobar. | ![Linux] | |
 | ✅ | [calc] | Add calc command for calculating math. | ![Linux] | [calc_] |
 | ✅ | [capitalizer] | A simple micro-editor plugin that allows to capitalize selected text. | ![Linux] ![macOS] ![Windows] | |
