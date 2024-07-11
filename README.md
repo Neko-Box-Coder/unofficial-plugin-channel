@@ -123,7 +123,7 @@ All the plugins are located externally with the latest update and is possible to
 [colorschemes]: https://codeberg.org/micro-plugins/colorschemes
 [delve]: https://github.com/serge-v/micro-delve
 [emacs_select]: https://github.com/kesslern/micro-emacs-select
-[filemanager2]: https://codeberg.org/micro-plugins/filemanager2
+[filemanager2]: https://github.com/Neko-Box-Coder/filemanager2
 [findinfolder]: https://codeberg.org/micro-plugins/findinfolder
 [fzfinder]: https://github.com/MuratovAS/micro-fzfinder
 [gitStatus]: https://codeberg.org/micro-plugins/git-status
