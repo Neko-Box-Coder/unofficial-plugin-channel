@@ -164,8 +164,14 @@ All the plugins are located externally with the latest update and is possible to
 <!--[Linux]: https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black
 [macOS]: https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0
 [Windows]: https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white -->
+
 [Linux]: https://img.shields.io/badge/--FCC624?logo=linux&logoColor=000000
-[Windows]: https://img.shields.io/badge/--08a1f7?logo=windows&logoColor=ffffff
+
+<!-- It seems like the windows icon is being take down for copyright review -->
+<!-- See https://github.com/simple-icons/simple-icons/pull/10019 -->
+<!-- [Windows]: https://img.shields.io/badge/--08a1f7?logo=windows&logoColor=ffffff -->
+[Windows]: https://badgen.net/badge/_/Win10?icon=windows&label
+
 [macOS]: https://img.shields.io/badge/--181717?logo=apple
 
 [ag_]: https://github.com/ggreer/the_silver_searcher
