@@ -77,6 +77,7 @@ All the plugins are located externally with the latest update and is possible to
 | ✅ | [lintertypescript] | Ability to lint your Typescript (.ts & .tsx) files with tsc. | ![Linux] ![Windows] ![macOS] | [typescript] |
 | ❓️ | [manager] | Provides a way to manage linters, formatters, commands, keybindings, settings, plugins. | ![Linux] ![macOS] | [fzf], unknown... |
 | ✅ | [mdtree] | A plugin for the micro text editor to add sidebar for jumpring and viewing TOC of markdown files. | ![Linux] ![Windows] ![macOS] | |
+| ✅ | [MicroOmni] | A swiss army knife plugin that super charges ⚡️ your micro text editor with fuzzy search, diffs, etc. | ![Linux] ![Windows] ![macOS] | [fzf], [bat], [ripgrep], [diff on windows] |
 | ✅ | [microwiki] | Like vimwiki but for micro. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [microzim] | Basic manipulation of ZIM-Wiki files. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [mxc] | The microExecuter. Hit F5 to execute any script from the Micro buffer! | ![Linux] ![macOS] | |
@@ -137,6 +138,7 @@ All the plugins are located externally with the latest update and is possible to
 [lintertypescript]: https://github.com/sebkolind/micro-linter-typescript
 [manager]: https://codeberg.org/micro-plugins/manager
 [mdtree]: https://notabug.org/dustdfg/micro-mdtree
+[MicroOmni]: https://github.com/Neko-Box-Coder/MicroOmni
 [microwiki]: https://github.com/obedm503/microwiki
 [microzim]: https://github.com/ihavenomouth/microzim
 [mxc]: https://github.com/cadnza/mxc
@@ -171,26 +173,28 @@ All the plugins are located externally with the latest update and is possible to
 <!-- See https://github.com/simple-icons/simple-icons/pull/10019 -->
 <!-- [Windows]: https://img.shields.io/badge/--08a1f7?logo=windows&logoColor=ffffff -->
 [Windows]: https://badgen.net/badge/_/Win10?icon=windows&label
-
 [macOS]: https://img.shields.io/badge/--181717?logo=apple
+
+
 
 [ag_]: https://github.com/ggreer/the_silver_searcher
 [aspell_]: http://aspell.net/
+[bat]: https://github.com/sharkdp/bat
 [calc_]: https://github.com/lcn2/calc
 [delve_]: https://github.com/go-delve/delve/tree/master
-[ripgrep]: https://github.com/BurntSushi/ripgrep
-[bat]: https://github.com/sharkdp/bat
+[diff on windows]: https://gnuwin32.sourceforge.net/packages/diffutils.htm
+[firefox-esr]: https://www.mozilla.org/en-US/firefox/
 [fzf]: https://github.com/junegunn/fzf
 [git]: https://git-scm.com/
 [grep on windows]: https://github.com/mbuilov/grep-windows
-[pdflatex]: https://pypi.org/project/pdflatex/
-[python]: https://www.python.org/
-[typescript]: https://www.typescriptlang.org/download/
 [nelua_]: https://nelua.io/
 [nix_]: https://nixos.org/
-[pythonpy]: https://pypi.org/project/pythonpy/
-[prettier_]: https://github.com/prettier/prettier
 [pandoc]: https://github.com/jgm/pandoc
-[firefox-esr]: https://www.mozilla.org/en-US/firefox/
+[pdflatex]: https://pypi.org/project/pdflatex/
+[prettier_]: https://github.com/prettier/prettier
+[python]: https://www.python.org/
+[pythonpy]: https://pypi.org/project/pythonpy/
+[ripgrep]: https://github.com/BurntSushi/ripgrep
+[typescript]: https://www.typescriptlang.org/download/
 [uchardet_]: https://www.freedesktop.org/wiki/Software/uchardet/
 
