@@ -32,7 +32,7 @@ All the plugins in this channel are located in this repo and checked to not cont
 
 ```json
 "pluginchannels": [
-    https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/channel.json
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/channel.json"
 ]
 ```
 
@@ -41,12 +41,12 @@ All the plugins are located externally with the latest update and is possible to
 
 ```json
 "pluginchannels": [
-    https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/channel.json
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/channel.json"
 ]
 ```
 
 > [!IMPORTANT]
-> Although plugins in stable channel are checked where they are malicious or not, I **CANNOT** provide any warranty that they are safe and not responsible in the case damage is caused by any of the plugins.
+> Although plugins in stable channel are checked where they are malicious or not, I **CANNOT** provide any warranty and not responsible in case damage is caused by any of the plugins.
 
 ## 🔌 Plugins
 
@@ -55,7 +55,7 @@ All the plugins are located externally with the latest update and is possible to
 | ✅ | [acme] | An acme style editing plugin for the micro editor. | ![Linux] ![macOS] | |
 | ✅ | [align] | Simple plugin to align multiple cursors in micro. | ![Linux] ![macOS] ![Windows] | |
 | ✅ | [ag] | This plugin provides the ability to search with "ag" (aka the_silver_searcher). | ![Linux] ![macOS] ![Windows] | [ag_] |
-| ✅ | [aspell] | Spellchecking with Aspel. | ![Linux] ![macOS] ![Windows] | [aspell_] |
+| ✅ | [aspell] | Spellchecking with Aspell. | ![Linux] ![macOS] ![Windows] | [aspell_] |
 | ✅ | [battery] | Shows battery percentage on infobar. | ![Linux] | |
 | ✅ | [calc] | Add calc command for calculating math. | ![Linux] | [calc_] |
 | ✅ | [capitalizer] | A simple micro-editor plugin that allows to capitalize selected text. | ![Linux] ![macOS] ![Windows] | |
@@ -77,6 +77,7 @@ All the plugins are located externally with the latest update and is possible to
 | ✅ | [lintertypescript] | Ability to lint your Typescript (.ts & .tsx) files with tsc. | ![Linux] ![Windows] ![macOS] | [typescript] |
 | ❓️ | [manager] | Provides a way to manage linters, formatters, commands, keybindings, settings, plugins. | ![Linux] ![macOS] | [fzf], unknown... |
 | ✅ | [mdtree] | A plugin for the micro text editor to add sidebar for jumpring and viewing TOC of markdown files. | ![Linux] ![Windows] ![macOS] | |
+| ✅ | [MicroOmni] | A swiss army knife plugin that super charges ⚡️ your micro text editor with fuzzy search, diffs, etc. | ![Linux] ![Windows] ![macOS] | [fzf], [bat], [ripgrep], [diff on windows] |
 | ✅ | [microwiki] | Like vimwiki but for micro. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [microzim] | Basic manipulation of ZIM-Wiki files. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [mxc] | The microExecuter. Hit F5 to execute any script from the Micro buffer! | ![Linux] ![macOS] | |
@@ -86,12 +87,13 @@ All the plugins are located externally with the latest update and is possible to
 | ✅ | [prettier] | This plugin provides the ability to format your code with Prettier. | ![Linux] ![Windows] ![macOS] | [prettier_] |
 | ✅ | [preview] | A very simple plugin to preview markdown in a second editor pane using pandoc. | ![Linux] ![Windows] ![macOS] | [pandoc] |
 | ✅ | [repfiles] | A filemanager for your git-repository. | ![Linux] ![macOS] | |
-| ✅ | [run] | F5 to save and run, F12 to 'make', F9 to 'make' in background. Go, Python, Lua and executable file (#!) supported. Can 'make' whole project even from subdir. | ![Linux] ![macOS] | Different tools depending on file type, but [firefox-esr] for html |
+| ✅ | [runit] | F5 to save and run, F12 to 'make', F9 to 'make' in background. Go, Python, Lua and executable file (#!) supported. Can 'make' whole project even from subdir. | ![Linux] ![macOS] | Different tools depending on file type, but [firefox-esr] for html |
 | ✅ | [selto] | Simple plugin allowing to quickly select lines. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [splitterm] | Run a file or a selection of an inerpreted language within a new terminal window. | ![Linux] ![Windows] ![macOS] | |
-| ✅ | [sunny-day] | Port of the Emacs theme by Martin Haesler. | ![Linux] ![Windows] ![macOS] | |
+| ✅ | [sunny-day-theme] | Port of the Emacs theme by Martin Haesler. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [testaustime] | Testaustime coding activity tracker for micro. | ![Linux] ![macOS] | |
 | ✅ | [transform] | Plugin to do various kind of text transformations in Micro. | ![Linux] ![Windows] ![macOS] | |
+| ✅ | [uchardet] | Encoding detection. | ![Linux] ![Windows] ![macOS] | [uchardet_] |
 | ✅ | [urlopen] | A plugin for the micro text editor to add support for opening URLs in text files. | ![macOS] | |
 | ✅ | [wakatime] | Metrics, insights, and time tracking automatically generated from your programming activity. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [xonsh] | Syntax highlighting for xonsh files. | ![Linux] ![Windows] ![macOS] | |
@@ -99,8 +101,8 @@ All the plugins are located externally with the latest update and is possible to
 ## ➕ Adding a plugin
 
 1. Create a PR to `main`
-2. Modify `README.md` for the plugin. Remember it is in alphabatical order.
-3. Modify `channel.json` to point to `repo.json` in the plugin repo.
+2. Modify `README.md` and add an entry to the plugin (The name **MUST** match the `repo.json`). Remember it is in alphabatical order.
+3. Modify `channel.json` to point to `repo.json` in the plugin repo. Remember it is in alphabatical order.
 4. Modify `PLUGINS_TO_STABLE.md` and add the name of the plugin
 
 ## 🔼 Updating a plugin for both main and stable
@@ -122,7 +124,7 @@ All the plugins are located externally with the latest update and is possible to
 [colorschemes]: https://codeberg.org/micro-plugins/colorschemes
 [delve]: https://github.com/serge-v/micro-delve
 [emacs_select]: https://github.com/kesslern/micro-emacs-select
-[filemanager2]: https://codeberg.org/micro-plugins/filemanager2
+[filemanager2]: https://github.com/Neko-Box-Coder/filemanager2
 [findinfolder]: https://codeberg.org/micro-plugins/findinfolder
 [fzfinder]: https://github.com/MuratovAS/micro-fzfinder
 [gitStatus]: https://codeberg.org/micro-plugins/git-status
@@ -136,6 +138,7 @@ All the plugins are located externally with the latest update and is possible to
 [lintertypescript]: https://github.com/sebkolind/micro-linter-typescript
 [manager]: https://codeberg.org/micro-plugins/manager
 [mdtree]: https://notabug.org/dustdfg/micro-mdtree
+[MicroOmni]: https://github.com/Neko-Box-Coder/MicroOmni
 [microwiki]: https://github.com/obedm503/microwiki
 [microzim]: https://github.com/ihavenomouth/microzim
 [mxc]: https://github.com/cadnza/mxc
@@ -145,12 +148,13 @@ All the plugins are located externally with the latest update and is possible to
 [prettier]: https://github.com/sebkolind/micro-prettier
 [preview]: https://github.com/weebi/micro-preview
 [repfiles]: https://github.com/gaenseklein/repfiles
-[run]: https://github.com/terokarvinen/micro-run
+[runit]: https://github.com/terokarvinen/micro-run
 [selto]: https://github.com/PawelMTRK/micro-selto-plugin
 [splitterm]: https://github.com/lukhof/splitterm
-[sunny-day]: https://github.com/dwwmmn/micro-sunny-day
+[sunny-day-theme]: https://github.com/dwwmmn/micro-sunny-day
 [testaustime]: https://github.com/testaustime/testaustime-micro
 [transform]: https://github.com/SuSonicTH/micro-transform
+[uchardet]: https://github.com/niten94/micro-uchardet
 [urlopen]: https://github.com/pjg11/micro-urlopen
 [wakatime]: https://github.com/wakatime/micro-wakatime
 [xonsh]: https://codeberg.org/micro-plugins/xonsh
@@ -162,26 +166,35 @@ All the plugins are located externally with the latest update and is possible to
 <!--[Linux]: https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black
 [macOS]: https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0
 [Windows]: https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white -->
+
 [Linux]: https://img.shields.io/badge/--FCC624?logo=linux&logoColor=000000
-[Windows]: https://img.shields.io/badge/--08a1f7?logo=windows&logoColor=ffffff
+
+<!-- It seems like the windows icon is being take down for copyright review -->
+<!-- See https://github.com/simple-icons/simple-icons/pull/10019 -->
+<!-- [Windows]: https://img.shields.io/badge/--08a1f7?logo=windows&logoColor=ffffff -->
+[Windows]: https://badgen.net/badge/_/Win10?icon=windows&label
 [macOS]: https://img.shields.io/badge/--181717?logo=apple
+
+
 
 [ag_]: https://github.com/ggreer/the_silver_searcher
 [aspell_]: http://aspell.net/
+[bat]: https://github.com/sharkdp/bat
 [calc_]: https://github.com/lcn2/calc
 [delve_]: https://github.com/go-delve/delve/tree/master
-[ripgrep]: https://github.com/BurntSushi/ripgrep
-[bat]: https://github.com/sharkdp/bat
+[diff on windows]: https://gnuwin32.sourceforge.net/packages/diffutils.htm
+[firefox-esr]: https://www.mozilla.org/en-US/firefox/
 [fzf]: https://github.com/junegunn/fzf
 [git]: https://git-scm.com/
 [grep on windows]: https://github.com/mbuilov/grep-windows
-[pdflatex]: https://pypi.org/project/pdflatex/
-[python]: https://www.python.org/
-[typescript]: https://www.typescriptlang.org/download/
 [nelua_]: https://nelua.io/
 [nix_]: https://nixos.org/
-[pythonpy]: https://pypi.org/project/pythonpy/
-[prettier_]: https://github.com/prettier/prettier
 [pandoc]: https://github.com/jgm/pandoc
-[firefox-esr]: https://www.mozilla.org/en-US/firefox/
+[pdflatex]: https://pypi.org/project/pdflatex/
+[prettier_]: https://github.com/prettier/prettier
+[python]: https://www.python.org/
+[pythonpy]: https://pypi.org/project/pythonpy/
+[ripgrep]: https://github.com/BurntSushi/ripgrep
+[typescript]: https://www.typescriptlang.org/download/
+[uchardet_]: https://www.freedesktop.org/wiki/Software/uchardet/
 
