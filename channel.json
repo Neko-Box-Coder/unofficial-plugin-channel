@@ -49,6 +49,8 @@
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/manager.json",
     //mdtree
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/mdtree.json",
+    //MicroOmni
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/MicroOmni.json",
     //microwiki
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/microwiki.json",
     //microzim
@@ -79,6 +81,8 @@
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/testaustime.json",
     //transform
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/transform.json",
+    //uchardet
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/uchardet.json",
     //urlopen
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/urlopen.json",
     //wakatime

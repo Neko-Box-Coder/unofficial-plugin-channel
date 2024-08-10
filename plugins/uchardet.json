@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "uchardet",
+    "Description": "Encoding detection",
+    "Website": "https://github.com/niten94/micro-uchardet",
+    "Tags": ["encoding", "charset", "detect", "uchardet"],
+    "Versions": [
+      {
+        "Version": "1.1.2",
+        "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/uchardet-1.1.2.zip",
+        "Require": {
+          "micro": ">=2.0.7"
+        }
+      }
+    ]
+  }
+]

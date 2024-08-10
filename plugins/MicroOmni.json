@@ -1,0 +1,22 @@
+[{
+  "Name": "MicroOmni",
+  "Description": "Powerful micro plugin",
+  "License": "Unlicense",
+  "Tags": [
+      "fzf",
+      "search",
+      "fuzzy",
+      "cursor",
+      "diff",
+      "history"
+  ],
+  "Versions": [
+    {
+      "Version": "0.0.1",
+      "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/MicroOmni-0.0.1.zip",
+      "Require": {
+        "micro": ">=2.0.13"
+      }
+    }
+  ]
+}]
