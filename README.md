@@ -92,6 +92,7 @@ All the plugins are located externally with the latest update and is possible to
 | ✅ | [splitterm] | Run a file or a selection of an inerpreted language within a new terminal window. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [sunny-day-theme] | Port of the Emacs theme by Martin Haesler. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [testaustime] | Testaustime coding activity tracker for micro. | ![Linux] ![macOS] | |
+| ✅ | [tojour] | Low-overhead daily journalling, todo and habit tracking IDE in micro. | ![Linux] | |
 | ✅ | [transform] | Plugin to do various kind of text transformations in Micro. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [uchardet] | Encoding detection. | ![Linux] ![Windows] ![macOS] | [uchardet_] |
 | ✅ | [urlopen] | A plugin for the micro text editor to add support for opening URLs in text files. | ![macOS] | |
