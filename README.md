@@ -92,7 +92,7 @@ All the plugins are located externally with the latest update and is possible to
 | ✅ | [splitterm] | Run a file or a selection of an inerpreted language within a new terminal window. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [sunny-day-theme] | Port of the Emacs theme by Martin Haesler. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [testaustime] | Testaustime coding activity tracker for micro. | ![Linux] ![macOS] | |
-| ❓️ | [tojour] | Low-overhead daily journalling, todo and habit tracking IDE in micro. | ![Linux] |  [fzf], python, [ripgrep], [fd], bash, grep, find, [xclip] (optional), [imagemagick] (optional), [nnn] (optional) |
+| ❓️ | [tojour] | Low-overhead daily journalling, todo and habit tracking IDE in micro. | ![Linux] |  [fzf], [python], [ripgrep], [fd], xclip (optional), [imagemagick] (optional), [nnn] (optional) |
 | ✅ | [transform] | Plugin to do various kind of text transformations in Micro. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [uchardet] | Encoding detection. | ![Linux] ![Windows] ![macOS] | [uchardet_] |
 | ✅ | [urlopen] | A plugin for the micro text editor to add support for opening URLs in text files. | ![macOS] | |
@@ -185,12 +185,12 @@ All the plugins are located externally with the latest update and is possible to
 [calc_]: https://github.com/lcn2/calc
 [delve_]: https://github.com/go-delve/delve/tree/master
 [diff on windows]: https://gnuwin32.sourceforge.net/packages/diffutils.htm
-[imagemagick]: https://github.com/ImageMagick/ImageMagick
 [fd]: https://github.com/sharkdp/fd
 [firefox-esr]: https://www.mozilla.org/en-US/firefox/
 [fzf]: https://github.com/junegunn/fzf
 [git]: https://git-scm.com/
 [grep on windows]: https://github.com/mbuilov/grep-windows
+[imagemagick]: https://github.com/ImageMagick/ImageMagick
 [nelua_]: https://nelua.io/
 [nix_]: https://nixos.org/
 [nnn]: https://github.com/jarun/nnn
