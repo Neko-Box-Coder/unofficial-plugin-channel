@@ -154,8 +154,8 @@ All the plugins are located externally with the latest update and is possible to
 [splitterm]: https://github.com/lukhof/splitterm
 [sunny-day-theme]: https://github.com/dwwmmn/micro-sunny-day
 [testaustime]: https://github.com/testaustime/testaustime-micro
-[transform]: https://github.com/SuSonicTH/micro-transform
 [tojour]: https://github.com/protostork/micro-tojour
+[transform]: https://github.com/SuSonicTH/micro-transform
 [uchardet]: https://github.com/niten94/micro-uchardet
 [urlopen]: https://github.com/pjg11/micro-urlopen
 [wakatime]: https://github.com/wakatime/micro-wakatime
