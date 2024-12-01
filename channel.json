@@ -81,6 +81,8 @@
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/testaustime.json",
     //transform
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/transform.json",
+    //tojour
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/tojour.json",
     //uchardet
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/uchardet.json",
     //urlopen
