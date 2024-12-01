@@ -1,0 +1,59 @@
+name: Test Install Micro Plugins
+
+on:
+  workflow_dispatch:
+
+jobs:
+  install-plugins:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        channel: ['main', 'stable']
+    
+    steps:
+      - name: Install Micro editor from nightly
+        run: |
+          wget https://github.com/zyedidia/micro/releases/download/nightly/micro-nightly-linux64.tar.gz
+          tar xzf micro-nightly-linux64.tar.gz
+          
+      - name: Configure Micro plugin channel
+        run: |
+          mkdir -p ~/.config/micro
+          echo '{
+            "pluginchannels": [
+              "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/${{ matrix.channel }}/channel.json"
+            ]
+          }' > ~/.config/micro/settings.json
+      
+      - name: Install plugins
+        run: |
+          ./micro-*/micro -plugin install acme
+          ./micro-*/micro -plugin install xonsh
+          ./micro-*/micro -plugin list
+
+      - name: Check plugin installation
+        run: |
+          if ! ./micro-*/micro -plugin list | grep -q "acme"; then
+            echo "Acme plugin installation failed for ${{ matrix.channel }} channel"
+            exit 1
+          fi
+          if ! ./micro-*/micro -plugin list | grep -q "xonsh"; then
+            echo "Xonsh plugin installation failed for ${{ matrix.channel }} channel"
+            exit 1
+          fi
+
+      - name: Update commit status
+        if: success()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/${{ github.repository }}/statuses/${{ github.sha }}" \
+            -d '{
+              "state": "success",
+              "description": "Plugin installation successful for ${{ matrix.channel }} channel",
+              "context": "Plugin Installation Test/${{ matrix.channel }}"
+            }'
+
