@@ -68,6 +68,7 @@ All the plugins are located externally with the latest update and is possible to
 | ✅ | [fzfinder] | Integrate fzf to select and search for your project files. | ![Linux] ![Windows] ![macOS] | [fzf], (Optional) [bat] |
 | ✅ | [gitStatus] | Information about git in status bar. | ![Linux] ![Windows] ![macOS] | [git] |
 | ✅ | [grepsearch] | Using grep to recursively search in files. | ![Linux] ![Windows] ![macOS] | [grep on windows] |
+| ❓️ | [gutter_message] | Display gutter messages in a tooltip. | ![Linux] ![Windows] ![macOS] | |
 | ❓️ | [gzplugin] | Read and write .gzip files. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [language_env] | Syntax highlighting for files with .env extension. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [language_ignore] | Adds syntax highlighting to 'ignore' files. | ![Linux] ![Windows] ![macOS] | |
@@ -130,6 +131,7 @@ All the plugins are located externally with the latest update and is possible to
 [fzfinder]: https://github.com/MuratovAS/micro-fzfinder
 [gitStatus]: https://codeberg.org/micro-plugins/git-status
 [grepsearch]: https://github.com/gaenseklein/grepsearch
+[gutter_message]: https://github.com/usfbih8u/micro-gutter-message
 [gzplugin]: https://github.com/dzmanto/gzplugin4micro
 [language_env]: https://codeberg.org/micro-plugins/language-env
 [language_ignore]: https://codeberg.org/micro-plugins/language-ignore
