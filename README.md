@@ -56,6 +56,7 @@ All the plugins are located externally with the latest update and is possible to
 | ✅ | [align] | Simple plugin to align multiple cursors in micro. | ![Linux] ![macOS] ![Windows] | |
 | ✅ | [ag] | This plugin provides the ability to search with "ag" (aka the_silver_searcher). | ![Linux] ![macOS] ![Windows] | [ag_] |
 | ✅ | [aspell] | Spellchecking with Aspell. | ![Linux] ![macOS] ![Windows] | [aspell_] |
+| ❓ | [autocomplete_tooltip] | Display Autocomplete suggestions in a Tooltip. | ![Linux] ![macOS] ![Windows] | |
 | ✅ | [battery] | Shows battery percentage on infobar. | ![Linux] | |
 | ✅ | [calc] | Add calc command for calculating math. | ![Linux] | [calc_] |
 | ✅ | [capitalizer] | A simple micro-editor plugin that allows to capitalize selected text. | ![Linux] ![macOS] ![Windows] | |
@@ -118,6 +119,7 @@ All the plugins are located externally with the latest update and is possible to
 [align]: https://github.com/mosskjohnson/align-plugin
 [ag]: https://github.com/sebkolind/micro-ag
 [aspell]: https://github.com/priner/micro-aspell-plugin
+[autocomplete_tooltip]: https://github.com/usfbih8u/micro-autocomplete-tooltip
 [battery]: https://github.com/dubyte/micro-battery
 [calc]: https://notabug.org/dustdfg/micro-calc
 [capitalizer]: https://github.com/CodeGiorgino/capitalizer
