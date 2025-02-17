@@ -33,6 +33,8 @@
     "https://codeberg.org/micro-plugins/git-status/raw/branch/main/repo.json",
     //grepsearch
     "https://raw.githubusercontent.com/gaenseklein/grepsearch/main/repo.json",
+    //gutter_message
+    "https://raw.githubusercontent.com/usfbih8u/micro-gutter-message/master/repo.json",
     //gzplugin
     "https://raw.githubusercontent.com/dzmanto/gzplugin4micro/master/repo.json",
     //language_env
