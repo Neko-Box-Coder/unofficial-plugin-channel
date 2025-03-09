@@ -1,0 +1,15 @@
+[{
+  "Name": "gutter_message",
+  "Description": "Navigate Micro gutter messages and display messages in a tooltip.",
+  "Website": "https://github.com/usfbih8u/micro-gutter-message",
+  "Tags": ["gutter, message, tooltip, diagnostics, linter"],
+  "Versions": [
+    {
+      "Version": "0.0.4",
+      "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/gutter_message-0.0.4.zip",
+      "Require": {
+        "micro": ">=2.0.14"
+      }
+    }
+  ]
+}]

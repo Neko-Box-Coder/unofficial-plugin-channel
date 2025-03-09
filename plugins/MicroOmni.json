@@ -12,6 +12,20 @@
   ],
   "Versions": [
     {
+      "Version": "0.3.1",
+      "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/MicroOmni-0.3.1.zip",
+      "Require": {
+        "micro": ">=2.0.14"
+      }
+    },
+    {
+      "Version": "0.3.0",
+      "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/MicroOmni-0.3.0.zip",
+      "Require": {
+        "micro": ">=2.0.14"
+      }
+    },
+    {
       "Version": "0.0.1",
       "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/MicroOmni-0.0.1.zip",
       "Require": {

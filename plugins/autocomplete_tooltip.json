@@ -1,0 +1,15 @@
+[{
+  "Name": "autocomplete_tooltip",
+  "Description": "Tooltip for Micro suggestions.",
+  "Website": "https://github.com/usfbih8u/micro-autocomplete-tooltip",
+  "Tags": ["tooltip, autocomplete, suggestions"],
+  "Versions": [
+    {
+      "Version": "0.0.3",
+      "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/autocomplete_tooltip-0.0.4.zip",
+      "Require": {
+        "micro": ">=2.0.14"
+      }
+    }
+  ]
+}]
