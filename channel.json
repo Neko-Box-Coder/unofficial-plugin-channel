@@ -30,7 +30,7 @@
     //fzfinder
     "https://raw.githubusercontent.com/MuratovAS/micro-fzfinder/main/repo.json",
     //gitStatus
-    "https://codeberg.org/micro-plugins/git-status/raw/branch/main/repo.json",
+    "https://github.com/Neko-Box-Coder/git-status/raw/refs/heads/main/repo.json",
     //grepsearch
     "https://raw.githubusercontent.com/gaenseklein/grepsearch/main/repo.json",
     //gutter_message

@@ -131,7 +131,7 @@ All the plugins are located externally with the latest update and is possible to
 [filemanager2]: https://github.com/Neko-Box-Coder/filemanager2
 [findinfolder]: https://codeberg.org/micro-plugins/findinfolder
 [fzfinder]: https://github.com/MuratovAS/micro-fzfinder
-[gitStatus]: https://codeberg.org/micro-plugins/git-status
+[gitStatus]: https://github.com/Neko-Box-Coder/git-status
 [grepsearch]: https://github.com/gaenseklein/grepsearch
 [gutter_message]: https://github.com/usfbih8u/micro-gutter-message
 [gzplugin]: https://github.com/dzmanto/gzplugin4micro
