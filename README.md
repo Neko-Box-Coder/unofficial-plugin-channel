@@ -77,6 +77,7 @@ All the plugins are located externally with the latest update and is possible to
 | ✅ | [language_log] | Syntax highlighting for files with .log extension. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [latexplugin] | Latex plugin for Micro editor. Main aim is to provide synctex support. | ![Linux] ![macOS] | [pdflatex], [python] |
 | ✅ | [lintertypescript] | Ability to lint your Typescript (.ts & .tsx) files with tsc. | ![Linux] ![Windows] ![macOS] | [typescript] |
+| ❓️ | [llm] | Integrates Simon Willison's LLM CLI with the Micro editor. This plugin allows you to leverage Large Language Models directly within Micro for text generation, modification, and custom-defined tasks through templates. | ![Linux] ![Windows] ![macOS] |[llm_] |
 | ❓️ | [manager] | Provides a way to manage linters, formatters, commands, keybindings, settings, plugins. | ![Linux] ![macOS] | [fzf], unknown... |
 | ✅ | [mdtree] | A plugin for the micro text editor to add sidebar for jumpring and viewing TOC of markdown files. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [MicroOmni] | A swiss army knife plugin that super charges ⚡️ your micro text editor with fuzzy search, diffs, etc. | ![Linux] ![Windows] ![macOS] | [fzf], [bat], [ripgrep], [diff on windows] |
@@ -141,6 +142,7 @@ All the plugins are located externally with the latest update and is possible to
 [language_log]: https://codeberg.org/micro-plugins/language-log
 [latexplugin]: https://github.com/chykcha3/micro-plugin-latex
 [lintertypescript]: https://github.com/sebkolind/micro-linter-typescript
+[llm]: https://github.com/shamanicvocalarts/llm-micro
 [manager]: https://codeberg.org/micro-plugins/manager
 [mdtree]: https://notabug.org/dustdfg/micro-mdtree
 [MicroOmni]: https://github.com/Neko-Box-Coder/MicroOmni
@@ -195,6 +197,7 @@ All the plugins are located externally with the latest update and is possible to
 [git]: https://git-scm.com/
 [grep on windows]: https://github.com/mbuilov/grep-windows
 [imagemagick]: https://github.com/ImageMagick/ImageMagick
+[llm_]: https://github.com/simonw/llm 
 [nelua_]: https://nelua.io/
 [nix_]: https://nixos.org/
 [nnn]: https://github.com/jarun/nnn
@@ -206,4 +209,5 @@ All the plugins are located externally with the latest update and is possible to
 [ripgrep]: https://github.com/BurntSushi/ripgrep
 [typescript]: https://www.typescriptlang.org/download/
 [uchardet_]: https://www.freedesktop.org/wiki/Software/uchardet/
+
 
