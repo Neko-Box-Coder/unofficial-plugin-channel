@@ -49,6 +49,8 @@
     "https://raw.githubusercontent.com/chykcha3/micro-plugin-latex/main/repo.json",
     //lintertypescript
     "https://raw.githubusercontent.com/sebkolind/micro-linter-typescript/master/repo.json",
+    //llm
+    "https://raw.githubusercontent.com/shamanicvocalarts/llm-micro/refs/heads/main/repo.json",
     //manager
     "https://codeberg.org/micro-plugins/manager/raw/branch/main/repo.json",
     //mdtree
