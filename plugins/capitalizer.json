@@ -1,0 +1,13 @@
+[{
+  "Name": "capitalizer",
+  "Description": "Micro plugin to capitalize selection",
+  "Website": "https://github.com/CodeGiorgino/capitalizer",
+  "Tags": ["capitalize", "text"],
+  "License": "MIT",
+  "Versions": [
+	{
+      "Version": "1.2.0",
+      "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/capitalizer-1.2.0.zip",
+    }
+  ]
+}]
