@@ -18,7 +18,7 @@
     //cheat
     "https://raw.githubusercontent.com/terokarvinen/micro-cheat/main/repo.json",
     //colorschemes
-    "https://codeberg.org/micro-plugins/colorschemes/raw/branch/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/plugins/colorschemes.json",
     //delve
     "https://raw.githubusercontent.com/serge-v/micro-delve/main/repo.json",
     //emacs_select
@@ -26,7 +26,7 @@
     //filemanager2
     "https://raw.githubusercontent.com/Neko-Box-Coder/filemanager2/main/repo.json",
     //findinfolder
-    "https://codeberg.org/micro-plugins/findinfolder/raw/branch/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/plugins/findinfolder.json",
     //fzfinder
     "https://raw.githubusercontent.com/MuratovAS/micro-fzfinder/main/repo.json",
     //gitStatus
@@ -38,13 +38,13 @@
     //gzplugin
     "https://raw.githubusercontent.com/dzmanto/gzplugin4micro/master/repo.json",
     //language_env
-    "https://codeberg.org/micro-plugins/language-env/raw/branch/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/plugins/language_env.json",
     //language_ignore
-    "https://codeberg.org/micro-plugins/language-ignore/raw/branch/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/plugins/language_ignore.json",
     //language_kv
-    "https://codeberg.org/micro-plugins/language-kv/raw/branch/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/plugins/language_kv.json",
     //language_log
-    "https://codeberg.org/micro-plugins/language-log/raw/branch/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/plugins/language_log.json",
     //latexplugin
     "https://raw.githubusercontent.com/chykcha3/micro-plugin-latex/main/repo.json",
     //lintertypescript
@@ -52,7 +52,7 @@
     //llm
     "https://raw.githubusercontent.com/shamanicvocalarts/llm-micro/refs/heads/main/repo.json",
     //manager
-    "https://codeberg.org/micro-plugins/manager/raw/branch/main/repo.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/plugins/manager.json",
     //mdtree
     "https://notabug.org/dustdfg/micro-mdtree/raw/master/repo.json",
     //MicroOmni
@@ -96,5 +96,5 @@
     //wakatime
     "https://raw.githubusercontent.com/wakatime/micro-wakatime/master/repo.json",    
     //xonsh
-    "https://codeberg.org/micro-plugins/xonsh/raw/branch/main/repo.json"    
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/plugins/xonsh.json"
 ]
