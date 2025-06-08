@@ -14,7 +14,6 @@
                     "micro": ">=2.0.0"
                 },
                 "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/language_env-0.1.4.zip",
-                "Url": "https://codeberg.org/micro-plugins/language-env/archive/v0.1.4.zip",
                 "Version": "0.1.4"
             }
         ],
