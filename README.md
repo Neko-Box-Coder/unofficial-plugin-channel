@@ -1,10 +1,6 @@
 # 📡 Unofficial Micro Plugin Channel
 
 > [!NOTE]
-> This is an unofficial plugin channel. For the official one, go to [here](https://github.com/micro-editor/plugin-channel/).
->
-> <s>Unmaintained plugins there will be replaced with the ones here with `unofficial` prefix.</s> (WIP)
->
 > This channel is a fork of [the discontinued channel](https://github.com/taconi/plugin-channel) by [taconi](https://github.com/taconi). Credit goes to him
 
 ## ❓️ Why an unofficial channel?
@@ -19,29 +15,35 @@ On top of that, I personally would like to do the plugin channel differently. Th
 
 Edit your `settings.json` located in `~/.config/micro` (Unix) or `C:\Users\<your user name>\.config\micro` (Windows)
 
-There are 2 channels you can choose, stable or main. 
+There are 2 channels you can choose, stable (recommended) or main. 
 
-**Stable** is recommended for most people. **Main** if you want to need the latest upstream changes.
+- **Stable** 
+    - All the plugins in this channel are located in this repo and checked to not contain malicious code.
+    - `https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/channel.json`
+- **Main** 
+    - All the plugins are located externally with the latest update. 
+    - But it is possible to contain malicious code (i.e. supply chain attack).
+    - `https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/channel.json`
 
-**CHOOSE ONE ONLY**
+Choose the ones you want to the `pluginchannels` array in `settings.json`, 
 
-Add the one you want to the `pluginchannels` array in `settings.json`, 
+> [!IMPORTANT]
+> `pluginchannels` is evaluated in order, and by default it is pointed to the official plugin channel. 
+> 
+> By assigning it to something else, the official plugin channel will not be used anymore.
+>
+> If you still want to have access to the official one, simple append 
+> 
+> `https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json`
 
-### Stable
-All the plugins in this channel are located in this repo and checked to not contain malicious code.
+For example,
 
 ```json
 "pluginchannels": [
-    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/channel.json"
-]
-```
-
-### Main
-All the plugins are located externally with the latest update and is possible to contain malicious code (i.e. supply chain attack).
-
-```json
-"pluginchannels": [
-    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/channel.json"
+    //Get plugins from stable channel first
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/channel.json",
+    //The use the official channel last
+    "https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json"
 ]
 ```
 
