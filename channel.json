@@ -21,6 +21,8 @@
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/plugins/colorschemes.json",
     //delve
     "https://raw.githubusercontent.com/serge-v/micro-delve/main/repo.json",
+    //diff_preview
+    "https://raw.githubusercontent.com/usfbih8u/micro-diff-preview/master/repo.json",
     //emacs_select
     "https://raw.githubusercontent.com/kesslern/micro-emacs-select/main/repo.json",
     //filemanager2
