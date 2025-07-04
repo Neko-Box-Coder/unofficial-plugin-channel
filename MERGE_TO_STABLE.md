@@ -8,9 +8,9 @@ Only merely 17 steps are needed to be done 😂
 5. Unzip all the plugins to be merged in the `releases_hashes/tmp` folder
 6. Perform code check on all the plugins
 7. Upload all the plugins to be merged to [StableRelease](https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/tag/StableRelease)
-8. Run `sha256sum <plugin_name>.zip > ../<plugin_name>.zip.sha256sum` for all the plugins to be merged
-9. Delete the `releases_hashes/tmp` folder
-10. Add the plugins json to `plugins/<plugin_name>.json` for each of the plugins to be merged
+8. Run `../produce_sha.sh && mv *.sha256 ..` in `releases_hashes/tmp` to create new checksums for all the plugins to be merged
+9. Add the plugins json to `plugins/<plugin_name>.json` for each of the plugins to be merged
+10. Delete the `releases_hashes/tmp` folder
 11. Update the `channel.json` file for each of the plugins to be merged
 12. Commit and push the changes
 13. Switch to the `main` branch
