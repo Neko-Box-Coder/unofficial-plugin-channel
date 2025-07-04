@@ -12,6 +12,13 @@
                 "Require": {
                     "micro": ">=2.0.12"
                 },
+                "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/gitStatus-0.1.5.zip",
+                "Version": "0.1.5"
+            },
+            {
+                "Require": {
+                    "micro": ">=2.0.12"
+                },
                 "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/gitStatus-0.1.2.zip",
                 "Version": "0.1.2"
             }
