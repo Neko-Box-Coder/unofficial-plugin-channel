@@ -63,6 +63,7 @@ All the plugins are located externally with the latest update and is possible to
 | ✅ | [cheat] | F1 cheatsheet for the language you're editing: Python, Go, Lua... | ![Linux] ![macOS] ![Windows] | |
 | ✅ | [colorschemes] | Colorschemes aggregator. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [delve] | Integrates golang delve debugger. | ![Linux] ![Windows] ![macOS] | [delve_], `HOME`environment variable |
+| ❓️ | [diff_preview] | Display a preview of Git diffs in a tooltip. | ![Linux] ![Windows] ![macOS] | [git] |
 | ✅ | [emacs_select] | Emacs-style selection for Micro. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [filemanager2] | Plugin that allows for easy navigation of a file tree. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [findinfolder] | Folder search support. | ![Linux] ![macOS] |  [ripgrep], [fzf], [bat] |
@@ -128,6 +129,7 @@ All the plugins are located externally with the latest update and is possible to
 [cheat]: https://github.com/terokarvinen/micro-cheat
 [colorschemes]: https://codeberg.org/micro-plugins/colorschemes
 [delve]: https://github.com/serge-v/micro-delve
+[diff_preview]: https://github.com/usfbih8u/micro-diff-preview
 [emacs_select]: https://github.com/kesslern/micro-emacs-select
 [filemanager2]: https://github.com/Neko-Box-Coder/filemanager2
 [findinfolder]: https://codeberg.org/micro-plugins/findinfolder
