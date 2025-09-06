@@ -5,4 +5,17 @@ Put the name of the plugin as a list item here, So like
 -->
 - llm
 - diff_preview
-- yazi
+- yazi.micro
+- autocomplete_tooltip
+- cheat
+- filemanager2
+- fzfinder
+- gutter_message
+- latexplugin
+- MicroOmni
+- mxc
+- repfiles
+- runit
+
+
+
