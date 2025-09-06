@@ -57,8 +57,8 @@ For example,
 | Code Check | Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#10240; | Requirements |
 | -- | -- | -- | -- | -- |
 | ✅ | [acme] (Yes) | An acme style editing plugin for the micro editor. | ![Linux] ![macOS] | |
-| ✅ | [align] (Yes) | Simple plugin to align multiple cursors in micro. | ![Linux] ![macOS] ![Windows] | |
 | ✅ | [ag] (Yes) | This plugin provides the ability to search with "ag" (aka the_silver_searcher). | ![Linux] ![macOS] ![Windows] | [ag_] |
+| ✅ | [align] (Yes) | Simple plugin to align multiple cursors in micro. | ![Linux] ![macOS] ![Windows] | |
 | ✅ | [aspell] <br> (No, has issues and last updated 4 years ago) | Spellchecking with Aspell. | ![Linux] ![macOS] ![Windows] | [aspell_] |
 | ✅ | [autocomplete_tooltip] (Yes) | Display Autocomplete suggestions in a Tooltip. | ![Linux] ![macOS] ![Windows] | |
 | ✅ | [battery] (Yes) | Shows battery percentage on infobar. | ![Linux] | |
