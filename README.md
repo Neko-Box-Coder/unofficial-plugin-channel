@@ -5,9 +5,11 @@
 
 ## ❓️ Why an unofficial channel?
 
-See [this](https://github.com/zyedidia/micro/issues/2956) and [this](https://github.com/zyedidia/micro/discussions/3285)
+~~See [this](https://github.com/zyedidia/micro/issues/2956) and [this](https://github.com/zyedidia/micro/discussions/3285)~~
 
-Basically, we are having difficulty updating the micro plugin channel and also some of the plugins themselves as we don't have access to merge new changes.
+~~Basically, we are having difficulty updating the micro plugin channel and also some of the plugins themselves as we don't have access to merge new changes.~~
+
+[Edit]: The update to the official plugin channel is very slow, if not paused.
 
 On top of that, I personally would like to do the plugin channel differently. The ability to have a stable and dev channel and easy to understand table for all the plugins.
 
@@ -15,17 +17,21 @@ On top of that, I personally would like to do the plugin channel differently. Th
 
 Edit your `settings.json` located in `~/.config/micro` (Unix) or `C:\Users\<your user name>\.config\micro` (Windows)
 
-There are 2 channels you can choose, stable (recommended) or main. 
+> [!IMPORTANT]
+> You are currently in **main** channel
+
+There are 2 channels you can choose, [stable](https://github.com/Neko-Box-Coder/unofficial-plugin-channel/tree/stable) (recommended) or 
+[main](https://github.com/Neko-Box-Coder/unofficial-plugin-channel/tree/main).
 
 - **Stable** 
-    - All the plugins in this channel are located in this repo and checked to not contain malicious code.
-    - `https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/channel.json`
+    - All the plugins in this channel are located in this repo and **checked** to not contain malicious code.
+    - This channel is relatively slow to update, but very stable. Click [here](https://github.com/Neko-Box-Coder/unofficial-plugin-channel/tree/stable) to go to the stable channel
 - **Main** 
     - All the plugins are located externally with the latest update. 
-    - But it is possible to contain malicious code (i.e. supply chain attack).
-    - `https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/channel.json`
+    - But it is possible to contain malicious code (i.e. supply chain attack). Click [here](https://github.com/Neko-Box-Coder/unofficial-plugin-channel/tree/main) to go to the main channel
 
-Choose the ones you want to the `pluginchannels` array in `settings.json`, 
+To add the unofficial **main** channel, add it to the `pluginchannels` array in `settings.json`. 
+- `https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/channel.json`
 
 > [!IMPORTANT]
 > `pluginchannels` is evaluated in order, and by default it is pointed to the official plugin channel. 
@@ -41,7 +47,7 @@ For example,
 ```json
 "pluginchannels": [
     //Get plugins from stable channel first
-    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/channel.json",
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/channel.json",
     //The use the official channel last
     "https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json"
 ]
