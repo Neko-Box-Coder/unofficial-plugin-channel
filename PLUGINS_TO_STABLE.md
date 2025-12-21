@@ -13,6 +13,7 @@ Put the name of the plugin as a list item here, So like
 - gutter_message
 - latexplugin
 - MicroOmni
+- Markdown_Autocomplete
 - mxc
 - repfiles
 - runit

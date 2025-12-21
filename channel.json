@@ -55,6 +55,8 @@
     "https://raw.githubusercontent.com/shamanicvocalarts/llm-micro/refs/heads/main/repo.json",
     //manager
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/plugins/manager.json",
+    //markdown_autocomplete
+    "https://raw.githubusercontent.com/dalekirkwood/markdown-autocomplete/main/repo.json",
     //mdtree
     "https://notabug.org/dustdfg/micro-mdtree/raw/master/repo.json",
     //MicroOmni
