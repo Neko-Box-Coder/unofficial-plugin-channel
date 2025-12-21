@@ -5,9 +5,11 @@
 
 ## ❓️ Why an unofficial channel?
 
-See [this](https://github.com/zyedidia/micro/issues/2956) and [this](https://github.com/zyedidia/micro/discussions/3285)
+~~See [this](https://github.com/zyedidia/micro/issues/2956) and [this](https://github.com/zyedidia/micro/discussions/3285)~~
 
-Basically, we are having difficulty updating the micro plugin channel and also some of the plugins themselves as we don't have access to merge new changes.
+~~Basically, we are having difficulty updating the micro plugin channel and also some of the plugins themselves as we don't have access to merge new changes.~~
+
+[Edit]: The update to the official plugin channel is very slow, if not paused.
 
 On top of that, I personally would like to do the plugin channel differently. The ability to have a stable and dev channel and easy to understand table for all the plugins.
 
@@ -15,17 +17,21 @@ On top of that, I personally would like to do the plugin channel differently. Th
 
 Edit your `settings.json` located in `~/.config/micro` (Unix) or `C:\Users\<your user name>\.config\micro` (Windows)
 
-There are 2 channels you can choose, stable (recommended) or main. 
+> [!IMPORTANT]
+> You are currently in **stable** channel
+
+There are 2 channels you can choose, [stable](https://github.com/Neko-Box-Coder/unofficial-plugin-channel/tree/stable) (recommended) or 
+[main](https://github.com/Neko-Box-Coder/unofficial-plugin-channel/tree/main).
 
 - **Stable** 
-    - All the plugins in this channel are located in this repo and checked to not contain malicious code.
-    - `https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/channel.json`
+    - All the plugins in this channel are located in this repo and **checked** to not contain malicious code.
+    - This channel is relatively slow to update, but very stable. Click [here](https://github.com/Neko-Box-Coder/unofficial-plugin-channel/tree/stable) to go to the stable channel
 - **Main** 
     - All the plugins are located externally with the latest update. 
-    - But it is possible to contain malicious code (i.e. supply chain attack).
-    - `https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/channel.json`
+    - But it is possible to contain malicious code (i.e. supply chain attack). Click [here](https://github.com/Neko-Box-Coder/unofficial-plugin-channel/tree/main) to go to the main channel
 
-Choose the ones you want to the `pluginchannels` array in `settings.json`, 
+To add the unofficial **stable** channel, add it to the `pluginchannels` array in `settings.json`. 
+- `https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/channel.json`
 
 > [!IMPORTANT]
 > `pluginchannels` is evaluated in order, and by default it is pointed to the official plugin channel. 
@@ -57,8 +63,8 @@ For example,
 | Code Check | Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#10240; | Requirements |
 | -- | -- | -- | -- | -- |
 | ✅ | [acme] (Yes) | An acme style editing plugin for the micro editor. | ![Linux] ![macOS] | |
-| ✅ | [align] (Yes) | Simple plugin to align multiple cursors in micro. | ![Linux] ![macOS] ![Windows] | |
 | ✅ | [ag] (Yes) | This plugin provides the ability to search with "ag" (aka the_silver_searcher). | ![Linux] ![macOS] ![Windows] | [ag_] |
+| ✅ | [align] (Yes) | Simple plugin to align multiple cursors in micro. | ![Linux] ![macOS] ![Windows] | |
 | ✅ | [aspell] <br> (No, has issues and last updated 4 years ago) | Spellchecking with Aspell. | ![Linux] ![macOS] ![Windows] | [aspell_] |
 | ✅ | [autocomplete_tooltip] (Yes) | Display Autocomplete suggestions in a Tooltip. | ![Linux] ![macOS] ![Windows] | |
 | ✅ | [battery] (Yes) | Shows battery percentage on infobar. | ![Linux] | |
@@ -67,7 +73,7 @@ For example,
 | ✅ | [cheat] <br> (No, has issues and last updated 1 year ago) | F1 cheatsheet for the language you're editing: Python, Go, Lua... | ![Linux] ![macOS] ![Windows] | |
 | ✅ | [colorschemes] <br> (No, upstream gone) | Colorschemes aggregator. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [delve] (Yes) | Integrates golang delve debugger. | ![Linux] ![Windows] ![macOS] | [delve_], `HOME`environment variable |
-| ❓️ | [diff_preview] (Yes) | Display a preview of Git diffs in a tooltip. | ![Linux] ![Windows] ![macOS] | [git] |
+| ✅ | [diff_preview] (Yes) | Display a preview of Git diffs in a tooltip. | ![Linux] ![macOS] | [git] |
 | ✅ | [emacs_select] (Yes) | Emacs-style selection for Micro. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [filemanager2] (Yes) | Plugin that allows for easy navigation of a file tree. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [findinfolder] <br> (No, upstream gone) | Folder search support. | ![Linux] ![macOS] |  [ripgrep], [fzf], [bat] |
@@ -82,8 +88,8 @@ For example,
 | ✅ | [language_log] <br> (No, upstream gone) | Syntax highlighting for files with .log extension. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [latexplugin] (Yes) | Latex plugin for Micro editor. Main aim is to provide synctex support. | ![Linux] ![macOS] | [pdflatex], [python] |
 | ✅ | [lintertypescript] (Yes) | Ability to lint your Typescript (.ts & .tsx) files with tsc. | ![Linux] ![Windows] ![macOS] | [typescript] |
-| ❓️ | [llm] (Yes) | Integrates Simon Willison's LLM CLI with the Micro editor. This plugin allows you to leverage Large Language Models directly within Micro for text generation, modification, and custom-defined tasks through templates. | ![Linux] ![Windows] ![macOS] |[llm_] |
-| ❓️ | [manager] <br> (No, upstream gone) | Provides a way to manage linters, formatters, commands, keybindings, settings, plugins. | ![Linux] ![macOS] | [fzf], unknown... |
+| ✅ | [llm] (Yes) | Integrates Simon Willison's LLM CLI with the Micro editor. This plugin allows you to leverage Large Language Models directly within Micro for text generation, modification, and custom-defined tasks through templates. | ![Linux] ![Windows] ![macOS] |[llm_] |
+| ✅ | [manager] <br> (No, upstream gone) | Provides a way to manage linters, formatters, commands, keybindings, settings, plugins. | ![Linux] ![macOS] | [fzf], unknown... |
 | ✅ | [mdtree] (Yes) | A plugin for the micro text editor to add sidebar for jumpring and viewing TOC of markdown files. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [MicroOmni] (Yes) | A swiss army knife plugin that super charges ⚡️ your micro text editor with fuzzy search, diffs, etc. | ![Linux] ![Windows] ![macOS] | [fzf], [bat], [ripgrep], [diff on windows] |
 | ✅ | [microwiki] (Yes) | Like vimwiki but for micro. | ![Linux] ![Windows] ![macOS] | |
@@ -106,6 +112,7 @@ For example,
 | ✅ | [urlopen] (Yes) | A plugin for the micro text editor to add support for opening URLs in text files. | ![macOS] | |
 | ✅ | [wakatime] <br> (Yes, but minor performance issue) | Metrics, insights, and time tracking automatically generated from your programming activity. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [xonsh] <br> (No, upstream gone) | Syntax highlighting for xonsh files. | ![Linux] ![Windows] ![macOS] | |
+| ✅ | [yazi.micro] (Yes) | Yazi file explorer integration for micro. | ![Linux] ![macOS] | [yazi] |
 
 ## ➕ Adding a plugin
 
@@ -172,6 +179,7 @@ For example,
 [urlopen]: https://github.com/pjg11/micro-urlopen
 [wakatime]: https://github.com/wakatime/micro-wakatime
 [xonsh]: https://codeberg.org/micro-plugins/xonsh
+[yazi_micro]: https://github.com/kanvolu/yazi.micro
 
 
 
@@ -215,5 +223,6 @@ For example,
 [ripgrep]: https://github.com/BurntSushi/ripgrep
 [typescript]: https://www.typescriptlang.org/download/
 [uchardet_]: https://www.freedesktop.org/wiki/Software/uchardet/
+[yazi]: https://yazi-rs.github.io/
 
 
