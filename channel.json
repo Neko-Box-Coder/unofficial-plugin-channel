@@ -21,6 +21,8 @@
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/colorschemes.json",
     //delve
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/delve.json",
+    //diff_preview
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/diff_preview.json",
     //emacs_select
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/emacs_select.json",
     //filemanager2
@@ -49,6 +51,8 @@
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/latexplugin.json",
     //lintertypescript
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/lintertypescript.json",
+    //llm
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/llm.json",
     //manager
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/manager.json",
     //mdtree
@@ -94,5 +98,7 @@
     //wakatime
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/wakatime.json",
     //xonsh
-    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/xonsh.json"
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/xonsh.json",
+    //yazi_micro
+    "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/yazi_micro.json"
 ]

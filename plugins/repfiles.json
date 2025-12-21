@@ -7,6 +7,13 @@
         "License": "GPL3",
 		"Versions": [
 			{
+				"Version": "1.1.0",
+                "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/repfiles-1.1.0.zip",
+				"Require": {
+					"micro": ">=2.0.8"
+				}
+			},
+			{
 				"Version": "1.0.0",
                 "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/repfiles-1.0.0.zip",
 				"Require": {

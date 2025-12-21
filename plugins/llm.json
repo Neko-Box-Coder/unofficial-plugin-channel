@@ -1,0 +1,23 @@
+[
+  {
+    "Description": "Integrates SimonW's 'llm' CLI for text modification and generation within Micro.",
+    "License": "MIT",
+    "Name": "llm",
+    "Tags": [
+      "llm",
+      "ai",
+      "text generation",
+      "editing"
+    ],
+    "Versions": [
+      {
+        "Require": {
+          "micro": ">=2.0.0"
+        },
+        "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/llm-0.1.0.zip",
+        "Version": "0.1.0"
+      }
+    ],
+    "Website": "https://github.com/shamanicvocalarts/llm-micro"
+  }
+]

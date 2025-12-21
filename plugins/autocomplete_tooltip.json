@@ -5,6 +5,11 @@
   "Tags": ["tooltip, autocomplete, suggestions"],
   "Versions": [
     {
+      "Version": "0.0.5",
+      "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/autocomplete_tooltip-0.0.5.zip",
+      "Require": {
+        "micro": ">=2.0.14"
+      },
       "Version": "0.0.3",
       "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/autocomplete_tooltip-0.0.3.zip",
       "Require": {

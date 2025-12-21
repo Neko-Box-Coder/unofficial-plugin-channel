@@ -5,6 +5,11 @@
   "Website": "https://github.com/muratovas/micro-fzfinder",
   "Versions": [
     {
+      "Version": "0.2.1",
+      "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/fzfinder-0.2.1.zip",
+      "Require": {
+        "micro": ">=2.0.0"
+      },
       "Version": "0.2.0",
       "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/fzfinder-0.2.0.zip",
       "Require": {

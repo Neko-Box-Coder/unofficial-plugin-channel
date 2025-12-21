@@ -1,0 +1,17 @@
+[
+    {
+        "Name": "diff_preview",
+        "Description": "Display a preview of Git diffs in a tooltip.",
+        "Website": "https://github.com/usfbih8u/micro-diff-preview",
+        "Tags": ["git", "diff", "tooltip"],
+        "Versions": [
+            {
+                "Version": "0.0.2",
+                "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/diff_preview-0.0.2.zip",
+                "Require": {
+                    "micro": ">=2.0.14"
+                }
+            }
+        ]
+    }
+]

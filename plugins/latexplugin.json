@@ -5,6 +5,11 @@
   "Tags": ["latex", "synctex"],
   "Versions": [
     {
+      "Version": "0.4.4",
+      "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/latexplugin-0.4.4.zip",
+      "Require": {
+        "micro": ">=1.0.0"
+      },
       "Version": "0.4.3",
       "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/latexplugin-0.4.3.zip",
       "Require": {

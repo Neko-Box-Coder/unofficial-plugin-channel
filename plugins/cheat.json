@@ -6,6 +6,11 @@
   "License": "MIT license",
   "Versions": [
     {
+      "Version": "0.0.5",
+      "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/cheat-0.0.5.zip",
+      "Require": {
+        "micro": ">=2.0.0"
+      },
       "Version": "0.0.4",
       "Url": "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/releases/download/StableRelease/cheat-0.0.4.zip",
       "Require": {
