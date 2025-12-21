@@ -67,7 +67,7 @@ For example,
 | ✅ | [cheat] <br> (No, has issues and last updated 1 year ago) | F1 cheatsheet for the language you're editing: Python, Go, Lua... | ![Linux] ![macOS] ![Windows] | |
 | ✅ | [colorschemes] <br> (No, upstream gone) | Colorschemes aggregator. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [delve] (Yes) | Integrates golang delve debugger. | ![Linux] ![Windows] ![macOS] | [delve_], `HOME`environment variable |
-| ❓️ | [diff_preview] (Yes) | Display a preview of Git diffs in a tooltip. | ![Linux] ![Windows] ![macOS] | [git] |
+| ✅ | [diff_preview] (Yes) | Display a preview of Git diffs in a tooltip. | ![Linux] ![macOS] | [git] |
 | ✅ | [emacs_select] (Yes) | Emacs-style selection for Micro. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [filemanager2] (Yes) | Plugin that allows for easy navigation of a file tree. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [findinfolder] <br> (No, upstream gone) | Folder search support. | ![Linux] ![macOS] |  [ripgrep], [fzf], [bat] |
