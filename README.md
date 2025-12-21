@@ -106,7 +106,7 @@ For example,
 | ✅ | [urlopen] (Yes) | A plugin for the micro text editor to add support for opening URLs in text files. | ![macOS] | |
 | ✅ | [wakatime] <br> (Yes, but minor performance issue) | Metrics, insights, and time tracking automatically generated from your programming activity. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [xonsh] <br> (No, upstream gone) | Syntax highlighting for xonsh files. | ![Linux] ![Windows] ![macOS] | |
-| ❓️ | [yazi.micro] (Yes) | Yazi file explorer integration for micro. | ![Linux] ![macOS] | [yazi] |
+| ✅ | [yazi.micro] (Yes) | Yazi file explorer integration for micro. | ![Linux] ![macOS] | [yazi] |
 
 ## ➕ Adding a plugin
 
@@ -173,7 +173,7 @@ For example,
 [urlopen]: https://github.com/pjg11/micro-urlopen
 [wakatime]: https://github.com/wakatime/micro-wakatime
 [xonsh]: https://codeberg.org/micro-plugins/xonsh
-[yazi.micro]: https://github.com/kanvolu/yazi.micro
+[yazi_micro]: https://github.com/kanvolu/yazi.micro
 
 
 
