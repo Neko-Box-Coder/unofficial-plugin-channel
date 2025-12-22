@@ -12,8 +12,7 @@ Plugin Repository:
 ## ➕ Adding a plugin
 
 - [ ] Create a PR to `main`
-- [ ] Modify `README.md` and add an entry to the plugin (The name **MUST** match the `repo.json`). Remember it is in alphabatical order.
-<!-- Please add ❓️ icon in the code check column, I will check the code and update it when adding it to stable channel -->
+- [ ] Modify `README.md` and add an entry to the plugin (The name **MUST** match the one in `repo.json`). Remember it is in alphabatical order.
 <!-- Append ` (Yes)` after your plugin name in the Name column since it is maintained -->
 - [ ] Modify `channel.json` to point to `repo.json` in the plugin repo. Remember it is in alphabatical order.
 - [ ] Modify `PLUGINS_TO_STABLE.md` and add the name of the plugin
