@@ -82,6 +82,7 @@ For example,
 | ✅ | [grepsearch] (Yes) | Using grep to recursively search in files. | ![Linux] ![Windows] ![macOS] | [grep on windows] |
 | ✅ | [gutter_message] (Yes) | Display gutter messages in a tooltip. | ![Linux] ![Windows] ![macOS] | |
 | ❓️ | [gzplugin] (Yes) | Read and write .gzip files. | ![Linux] ![Windows] ![macOS] | |
+| ❓️ | [iconic_tabs] (Yes) | Replace the default tab bar with iconized tabs |  ![Linux] ![Windows] ![macOS] | |
 | ✅ | [language_env] <br> (No, upstream gone) | Syntax highlighting for files with .env extension. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [language_ignore] <br> (No, upstream gone) | Adds syntax highlighting to 'ignore' files. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [language_kv] <br> (No, upstream gone) | Syntax highlighting for kvlang. | ![Linux] ![Windows] ![macOS] | |
@@ -150,6 +151,7 @@ For example,
 [grepsearch]: https://github.com/gaenseklein/grepsearch
 [gutter_message]: https://github.com/usfbih8u/micro-gutter-message
 [gzplugin]: https://github.com/dzmanto/gzplugin4micro
+[iconic-tabs]: https://github.com/dalekirkwood/Micro_Editor_Iconic_Tabs
 [language_env]: https://codeberg.org/micro-plugins/language-env
 [language_ignore]: https://codeberg.org/micro-plugins/language-ignore
 [language_kv]: https://codeberg.org/micro-plugins/language-kv

@@ -39,6 +39,8 @@
     "https://raw.githubusercontent.com/usfbih8u/micro-gutter-message/master/repo.json",
     //gzplugin
     "https://raw.githubusercontent.com/dzmanto/gzplugin4micro/master/repo.json",
+    //iconic_tabs
+    "https://raw.githubusercontent.com/dalekirkwood/Micro_Editor_Iconic_Tabs/refs/heads/master/repo.json",
     //language_env
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/plugins/language_env.json",
     //language_ignore
