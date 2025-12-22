@@ -148,7 +148,7 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 [grepsearch]: https://github.com/gaenseklein/grepsearch
 [gutter_message]: https://github.com/usfbih8u/micro-gutter-message
 [gzplugin]: https://github.com/dzmanto/gzplugin4micro
-[iconic-tabs]: https://github.com/dalekirkwood/Micro_Editor_Iconic_Tabs
+[iconic_tabs]: https://github.com/dalekirkwood/Micro_Editor_Iconic_Tabs
 [language_env]: https://codeberg.org/micro-plugins/language-env
 [language_ignore]: https://codeberg.org/micro-plugins/language-ignore
 [language_kv]: https://codeberg.org/micro-plugins/language-kv
