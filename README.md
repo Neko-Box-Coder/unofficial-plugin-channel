@@ -89,8 +89,9 @@ For example,
 | ✅ | [language_log] <br> (No, upstream gone) | Syntax highlighting for files with .log extension. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [latexplugin] (Yes) | Latex plugin for Micro editor. Main aim is to provide synctex support. | ![Linux] ![macOS] | [pdflatex], [python] |
 | ✅ | [lintertypescript] (Yes) | Ability to lint your Typescript (.ts & .tsx) files with tsc. | ![Linux] ![Windows] ![macOS] | [typescript] |
-| ✅ | [llm] (Yes) | Integrates Simon Willison's LLM CLI with the Micro editor. This plugin allows you to leverage Large Language Models directly within Micro for text generation, modification, and custom-defined tasks through templates. | ![Linux] ![Windows] ![macOS] |[llm_] |
-| ✅ | [manager] <br> (No, upstream gone) | Provides a way to manage linters, formatters, commands, keybindings, settings, plugins. | ![Linux] ![macOS] | [fzf], unknown... |
+| ❓️ | [llm] (Yes) | Integrates Simon Willison's LLM CLI with the Micro editor. This plugin allows you to leverage Large Language Models directly within Micro for text generation, modification, and custom-defined tasks through templates. | ![Linux] ![Windows] ![macOS] |[llm_] |
+| ❓| [markdown_autocomplete] (Yes) | Basic Autocomplete for Markdown files. | Linux Windows macOS |
+| ❓️ | [manager] <br> (No, upstream gone) | Provides a way to manage linters, formatters, commands, keybindings, settings, plugins. | ![Linux] ![macOS] | [fzf], unknown... |
 | ✅ | [mdtree] (Yes) | A plugin for the micro text editor to add sidebar for jumpring and viewing TOC of markdown files. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [MicroOmni] (Yes) | A swiss army knife plugin that super charges ⚡️ your micro text editor with fuzzy search, diffs, etc. | ![Linux] ![Windows] ![macOS] | [fzf], [bat], [ripgrep], [diff on windows] |
 | ✅ | [microwiki] (Yes) | Like vimwiki but for micro. | ![Linux] ![Windows] ![macOS] | |
@@ -158,6 +159,7 @@ For example,
 [latexplugin]: https://github.com/chykcha3/micro-plugin-latex
 [lintertypescript]: https://github.com/sebkolind/micro-linter-typescript
 [llm]: https://github.com/shamanicvocalarts/llm-micro
+[markdown_autocomplete]: https://github.com/dalekirkwood/markdown-autocomplete
 [manager]: https://codeberg.org/micro-plugins/manager
 [mdtree]: https://notabug.org/dustdfg/micro-mdtree
 [MicroOmni]: https://github.com/Neko-Box-Coder/MicroOmni
