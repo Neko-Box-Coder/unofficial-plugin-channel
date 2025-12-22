@@ -76,7 +76,7 @@ For example,
 | ✅ | [grepsearch] (Yes) | Using grep to recursively search in files. | ![Linux] ![Windows] ![macOS] | [grep on windows] |
 | ✅ | [gutter_message] (Yes) | Display gutter messages in a tooltip. | ![Linux] ![Windows] ![macOS] | |
 | ❓️ | [gzplugin] (Yes) | Read and write .gzip files. | ![Linux] ![Windows] ![macOS] | |
-| ❓️ | [iconic-tabs] (Yes) | Replace the default tab bar with iconized tabs |  ![Linux] ![Windows] ![macOS] | |
+| ❓️ | [iconic_tabs] (Yes) | Replace the default tab bar with iconized tabs |  ![Linux] ![Windows] ![macOS] | |
 | ✅ | [language_env] <br> (No, upstream gone) | Syntax highlighting for files with .env extension. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [language_ignore] <br> (No, upstream gone) | Adds syntax highlighting to 'ignore' files. | ![Linux] ![Windows] ![macOS] | |
 | ✅ | [language_kv] <br> (No, upstream gone) | Syntax highlighting for kvlang. | ![Linux] ![Windows] ![macOS] | |
