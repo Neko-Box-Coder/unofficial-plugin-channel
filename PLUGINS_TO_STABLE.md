@@ -11,7 +11,7 @@ Put the name of the plugin as a list item here, So like
 - filemanager2
 - fzfinder
 - gutter_message
-- iconize_tabs
+- iconic_tabs
 - latexplugin
 - MicroOmni
 - mxc
