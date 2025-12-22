@@ -46,7 +46,7 @@ For example,
 
 ```json
 "pluginchannels": [
-    //Get plugins from stable channel first
+    //Get plugins from main channel first
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/channel.json",
     //The use the official channel last
     "https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json"
@@ -111,7 +111,7 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 | [urlopen] (Yes) | A plugin for the micro text editor to add support for opening URLs in text files. | ![macOS] | |
 | [wakatime] <br> (Yes, but minor performance issue) | Metrics, insights, and time tracking automatically generated from your programming activity. | ![Linux] ![Windows] ![macOS] | |
 | [xonsh] <br> (No, upstream gone) | Syntax highlighting for xonsh files. | ![Linux] ![Windows] ![macOS] | |
-| [yazi.micro] (Yes) | Yazi file explorer integration for micro. | ![Linux] ![macOS] | [yazi] |
+| [yazi_micro] (Yes) | Yazi file explorer integration for micro. | ![Linux] ![macOS] | [yazi] |
 
 ## ➕ Adding a plugin
 
