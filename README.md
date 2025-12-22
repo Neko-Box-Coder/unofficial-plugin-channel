@@ -151,7 +151,7 @@ For example,
 [latexplugin]: https://github.com/chykcha3/micro-plugin-latex
 [lintertypescript]: https://github.com/sebkolind/micro-linter-typescript
 [llm]: https://github.com/shamanicvocalarts/llm-micro
-[markdown-autocomplete]: https://github.com/dalekirkwood/markdown-autocomplete
+[markdown_autocomplete]: https://github.com/dalekirkwood/markdown-autocomplete
 [manager]: https://codeberg.org/micro-plugins/manager
 [mdtree]: https://notabug.org/dustdfg/micro-mdtree
 [MicroOmni]: https://github.com/Neko-Box-Coder/MicroOmni
