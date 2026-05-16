@@ -4,6 +4,7 @@ Put the name of the plugin as a list item here, So like
 - filemanager2
 -->
 
+- dedent
 - markdown_autocomplete
 - iconic_tabs
 - indent
