@@ -69,6 +69,7 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 | [capitalizer] <br> (No, upstream gone) | A simple micro-editor plugin that allows to capitalize selected text. | ![Linux] ![macOS] ![Windows] | |
 | [cheat] <br> (No, has issues and last updated 1 year ago) | F1 cheatsheet for the language you're editing: Python, Go, Lua... | ![Linux] ![macOS] ![Windows] | |
 | [colorschemes] <br> (No, upstream gone) | Colorschemes aggregator. | ![Linux] ![Windows] ![macOS] | |
+| [dedent] (Yes) | A sister plugin of [indent]. Dedents a new line if a current one is matched by a regex | ![Linux] | |
 | [delve] (Yes) | Integrates golang delve debugger. | ![Linux] ![Windows] ![macOS] | [delve_], `HOME`environment variable |
 | [diff_preview] (Yes) | Display a preview of Git diffs in a tooltip. | ![Linux] ![macOS] | [git] |
 | [emacs_select] (Yes) | Emacs-style selection for Micro. | ![Linux] ![Windows] ![macOS] | |
@@ -139,6 +140,7 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 [capitalizer]: https://github.com/CodeGiorgino/capitalizer
 [cheat]: https://github.com/terokarvinen/micro-cheat
 [colorschemes]: https://codeberg.org/micro-plugins/colorschemes
+[dedent]: https://github.com/Jenny-hso/micro-dedent
 [delve]: https://github.com/serge-v/micro-delve
 [diff_preview]: https://github.com/usfbih8u/micro-diff-preview
 [emacs_select]: https://github.com/kesslern/micro-emacs-select

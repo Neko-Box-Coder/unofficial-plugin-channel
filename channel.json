@@ -19,6 +19,8 @@
     "https://raw.githubusercontent.com/terokarvinen/micro-cheat/main/repo.json",
     //colorschemes
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/plugins/colorschemes.json",
+    //dedent
+    "https://raw.githubusercontent.com/Jenny-hso/micro-dedent/refs/heads/main/repo.json",
     //delve
     "https://raw.githubusercontent.com/serge-v/micro-delve/main/repo.json",
     //diff_preview
@@ -42,7 +44,7 @@
     //iconic_tabs
     "https://raw.githubusercontent.com/dalekirkwood/Micro_Editor_Iconic_Tabs/refs/heads/master/repo.json",
     //indent
-    "https://raw.githubusercontent.com/Jenny-hso/micro-indent/refs/heads/main/repo.json"
+    "https://raw.githubusercontent.com/Jenny-hso/micro-indent/refs/heads/main/repo.json",
     //language_env
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/plugins/language_env.json",
     //language_ignore
