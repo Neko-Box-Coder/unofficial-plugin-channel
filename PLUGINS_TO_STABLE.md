@@ -6,3 +6,4 @@ Put the name of the plugin as a list item here, So like
 
 - markdown_autocomplete
 - iconic_tabs
+- indent

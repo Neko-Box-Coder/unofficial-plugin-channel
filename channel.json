@@ -41,6 +41,8 @@
     "https://raw.githubusercontent.com/dzmanto/gzplugin4micro/master/repo.json",
     //iconic_tabs
     "https://raw.githubusercontent.com/dalekirkwood/Micro_Editor_Iconic_Tabs/refs/heads/master/repo.json",
+    //indent
+    "https://raw.githubusercontent.com/Jenny-hso/micro-indent/refs/heads/main/repo.json"
     //language_env
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/plugins/language_env.json",
     //language_ignore
