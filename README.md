@@ -80,6 +80,7 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 | [gutter_message] (Yes) | Display gutter messages in a tooltip. | ![Linux] ![Windows] ![macOS] | |
 | [gzplugin] (Yes) | Read and write .gzip files. | ![Linux] ![Windows] ![macOS] | |
 | [iconic_tabs] (Yes) | Replace the default tab bar with iconized tabs |  ![Linux] ![Windows] ![macOS] | |
+| [indent] (Yes) | Autoindent a new line if a current line matches a regexp | ![Linux] | |
 | [language_env] <br> (No, upstream gone) | Syntax highlighting for files with .env extension. | ![Linux] ![Windows] ![macOS] | |
 | [language_ignore] <br> (No, upstream gone) | Adds syntax highlighting to 'ignore' files. | ![Linux] ![Windows] ![macOS] | |
 | [language_kv] <br> (No, upstream gone) | Syntax highlighting for kvlang. | ![Linux] ![Windows] ![macOS] | |
@@ -149,6 +150,7 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 [gutter_message]: https://github.com/usfbih8u/micro-gutter-message
 [gzplugin]: https://github.com/dzmanto/gzplugin4micro
 [iconic_tabs]: https://github.com/dalekirkwood/Micro_Editor_Iconic_Tabs
+[indent]: https://github.com/Jenny-hso/micro-indent
 [language_env]: https://codeberg.org/micro-plugins/language-env
 [language_ignore]: https://codeberg.org/micro-plugins/language-ignore
 [language_kv]: https://codeberg.org/micro-plugins/language-kv
