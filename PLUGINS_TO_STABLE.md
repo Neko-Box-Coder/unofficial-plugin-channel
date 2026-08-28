@@ -11,3 +11,4 @@ Put the name of the plugin as a list item here, So like
 - ember
 - scrollz
 - palette
+- usr1_reload
