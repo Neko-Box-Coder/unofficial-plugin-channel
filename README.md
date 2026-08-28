@@ -99,6 +99,7 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 | [mxc] (Yes) | The microExecuter. Hit F5 to execute any script from the Micro buffer! | ![Linux] ![macOS] | |
 | [nelua] <br> (No, has issues and last updated 4 years ago) | Nelua support for Micro text editor. | ![Linux] ![Windows] ![macOS] | [nelua_] |
 | [nix] (Yes) | nix-linter plugin and syntax. | ![Linux] ![Windows] ![macOS] | [nix_] |
+| [palette] (Yes) | Searchable palette for micro's help, its options, colorschemes with live preview, open buffers and files. The first character of the query picks which. | ![Linux] ![Windows] ![macOS] | |
 | [palettero] <br> (Yes, but missing version line) | Command palette - Ctrl-P to fuzzy search & run commands, textfilters and descriptions | ![Linux] ![macOS] | [fzf], (Optional) [pythonpy] |
 | [prettier] (Yes) | This plugin provides the ability to format your code with Prettier. | ![Linux] ![Windows] ![macOS] | [prettier_] |
 | [preview] (Yes) | A very simple plugin to preview markdown in a second editor pane using pandoc. | ![Linux] ![Windows] ![macOS] | [pandoc] |
@@ -113,6 +114,7 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 | [transform] (Yes) | Plugin to do various kind of text transformations in Micro. | ![Linux] ![Windows] ![macOS] | |
 | [uchardet] (Yes) | Encoding detection. | ![Linux] ![Windows] ![macOS] | [uchardet_] |
 | [urlopen] (Yes) | A plugin for the micro text editor to add support for opening URLs in text files. | ![macOS] | |
+| [usr1_reload] (Yes) | Plugin to reload micro externally. | ![Linux] ![macOS] | |
 | [wakatime] <br> (Yes, but minor performance issue) | Metrics, insights, and time tracking automatically generated from your programming activity. | ![Linux] ![Windows] ![macOS] | |
 | [xonsh] <br> (No, upstream gone) | Syntax highlighting for xonsh files. | ![Linux] ![Windows] ![macOS] | |
 | [yazi_micro] (Yes) | Yazi file explorer integration for micro. | ![Linux] ![macOS] | [yazi] |
@@ -172,6 +174,7 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 [mxc]: https://github.com/cadnza/mxc
 [nelua]: https://github.com/leap0x7b/micro-nelua-plugin
 [nix]: https://github.com/vandervoortj/nix-micro-plugin
+[palette]: https://github.com/vish9812/micro-palette
 [palettero]: https://github.com/terokarvinen/palettero
 [prettier]: https://github.com/sebkolind/micro-prettier
 [preview]: https://github.com/weebi/micro-preview
@@ -186,6 +189,7 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 [transform]: https://github.com/SuSonicTH/micro-transform
 [uchardet]: https://github.com/niten94/micro-uchardet
 [urlopen]: https://github.com/pjg11/micro-urlopen
+[usr1_reload]: https://github.com/usfbih8u/micro-usr1-reload
 [wakatime]: https://github.com/wakatime/micro-wakatime
 [xonsh]: https://codeberg.org/micro-plugins/xonsh
 [yazi_micro]: https://github.com/kanvolu/yazi.micro

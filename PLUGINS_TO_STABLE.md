@@ -10,4 +10,6 @@ Put the name of the plugin as a list item here, So like
 - indent
 - ember
 - scrollz
+- palette
+- usr1_reload
 - diff_preview
