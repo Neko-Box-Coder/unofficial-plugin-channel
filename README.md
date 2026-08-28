@@ -71,7 +71,7 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 | [colorschemes] <br> (No, upstream gone) | Colorschemes aggregator. | ![Linux] ![Windows] ![macOS] | |
 | [dedent] (Yes) | A sister plugin of [indent]. Dedents a new line if a current one is matched by a regex | ![Linux] | |
 | [delve] (Yes) | Integrates golang delve debugger. | ![Linux] ![Windows] ![macOS] | [delve_], `HOME`environment variable |
-| [diff_preview] (Yes) | Display a preview of Git diffs in a tooltip. | ![Linux] ![macOS] | [git] |
+| [diff_preview] (Yes) | Display a preview of Git diffs in a tooltip. | ![Linux] ![macOS] ![Windows] | [git] |
 | [emacs_select] (Yes) | Emacs-style selection for Micro. | ![Linux] ![Windows] ![macOS] | |
 | [ember] (Yes) | Four warm truecolor colorschemes: two transparent darks (warm and cool neutrals), one opaque dark, one light. | ![Linux] ![Windows] ![macOS] | Truecolor terminal |
 | [filemanager2] (Yes) | Plugin that allows for easy navigation of a file tree. | ![Linux] ![Windows] ![macOS] | |
