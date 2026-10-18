@@ -63,6 +63,7 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 | [ag] (Yes) | This plugin provides the ability to search with "ag" (aka the_silver_searcher). | ![Linux] ![macOS] ![Windows] | [ag_] |
 | [align] (Yes) | Simple plugin to align multiple cursors in micro. | ![Linux] ![macOS] ![Windows] | |
 | [aspell] <br> (No, has issues and last updated 4 years ago) | Spellchecking with Aspell. | ![Linux] ![macOS] ![Windows] | [aspell_] |
+| [autocd] (Yes) | Automatically `>cd` to project folders as you visit files. | ![Linux] ![macOS] ![Windows] | [xdg-user-dirs_] (optional) |
 | [autocomplete_tooltip] (Yes) | Display Autocomplete suggestions in a Tooltip. | ![Linux] ![macOS] ![Windows] | |
 | [battery] (Yes) | Shows battery percentage on infobar. | ![Linux] | |
 | [calc] (Yes) | Add calc command for calculating math. | ![Linux] | [calc_] |
@@ -138,6 +139,7 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 [align]: https://github.com/mosskjohnson/align-plugin
 [ag]: https://github.com/sebkolind/micro-ag
 [aspell]: https://github.com/priner/micro-aspell-plugin
+[autocd]: https://codeberg.org/achadwick/micro-autocd
 [autocomplete_tooltip]: https://github.com/usfbih8u/micro-autocomplete-tooltip
 [battery]: https://github.com/dubyte/micro-battery
 [calc]: https://notabug.org/dustdfg/micro-calc
@@ -236,5 +238,6 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 [ripgrep]: https://github.com/BurntSushi/ripgrep
 [typescript]: https://www.typescriptlang.org/download/
 [uchardet_]: https://www.freedesktop.org/wiki/Software/uchardet/
+[xdg-user-dirs_]: https://www.freedesktop.org/wiki/Software/xdg-user-dirs
 [yazi]: https://yazi-rs.github.io/
 
