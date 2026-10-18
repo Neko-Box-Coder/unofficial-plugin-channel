@@ -7,6 +7,8 @@
     "https://raw.githubusercontent.com/sebkolind/micro-ag/master/repo.json",
     //aspell
     "https://raw.githubusercontent.com/priner/micro-aspell-plugin/master/repo.json",
+    //autocd
+    "https://codeberg.org/achadwick/micro-autocd/raw/branch/main/repo.json",
     //autocomplete_tooltip
     "https://raw.githubusercontent.com/usfbih8u/micro-autocomplete-tooltip/master/repo.json",
     //battery
