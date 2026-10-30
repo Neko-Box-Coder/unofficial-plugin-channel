@@ -229,7 +229,7 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 [git]: https://git-scm.com/
 [grep on windows]: https://github.com/mbuilov/grep-windows
 [imagemagick]: https://github.com/ImageMagick/ImageMagick
-[llm_]: https://github.com/simonw/llm
+[llm_]: https://github.com/simonw/llm 
 [nelua_]: https://nelua.io/
 [nix_]: https://nixos.org/
 [nnn]: https://github.com/jarun/nnn
