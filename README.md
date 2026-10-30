@@ -184,6 +184,7 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 [runit]: https://github.com/terokarvinen/micro-run
 [scrollz]: https://github.com/vish9812/micro-scrollz
 [selto]: https://github.com/PawelMTRK/micro-selto-plugin
+[sortlines]: https://github.com/milnak/micro-sortlines
 [splitterm]: https://github.com/lukhof/splitterm
 [sunny-day-theme]: https://github.com/dwwmmn/micro-sunny-day
 [testaustime]: https://github.com/testaustime/testaustime-micro
