@@ -108,6 +108,7 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 | [runit] (Yes) | F5 to save and run, F12 to 'make', F9 to 'make' in background. Go, Python, Lua and executable file (#!) supported. Can 'make' whole project even from subdir. | ![Linux] ![macOS] | Different tools depending on file type, but [firefox-esr] for html |
 | [scrollz] (Yes) | Scroll the cursor's line to the top or bottom of the view, and half-page jumps that bring the cursor with you, centered. | ![Linux] ![Windows] ![macOS] | |
 | [selto] (Yes) | Simple plugin allowing to quickly select lines. | ![Linux] ![Windows] ![macOS] | |
+| [sortlines] (Yes) | Line sorting plugin. | ![Linux] ![Windows] ![macOS] | |
 | [splitterm] (Yes) | Run a file or a selection of an inerpreted language within a new terminal window. | ![Linux] ![Windows] ![macOS] | |
 | [sunny-day-theme] <br> (No, repository was archived) | Port of the Emacs theme by Martin Haesler. | ![Linux] ![Windows] ![macOS] | |
 | [testaustime] <br> (Yes, but has minor issue) | Testaustime coding activity tracker for micro. | ![Linux] ![macOS] | |
