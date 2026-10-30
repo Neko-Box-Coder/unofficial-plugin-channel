@@ -116,6 +116,7 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 | [uchardet] (Yes) | Encoding detection. | ![Linux] ![Windows] ![macOS] | [uchardet_] |
 | [urlopen] (Yes) | A plugin for the micro text editor to add support for opening URLs in text files. | ![macOS] | |
 | [usr1_reload] (Yes) | Plugin to reload micro externally. | ![Linux] ![macOS] | |
+| [vscode-default-dark-theme] <br> | Port of the vscode "Default Dark" theme. | ![Linux] ![Windows] ![macOS] | |
 | [wakatime] <br> (Yes, but minor performance issue) | Metrics, insights, and time tracking automatically generated from your programming activity. | ![Linux] ![Windows] ![macOS] | |
 | [xonsh] <br> (No, upstream gone) | Syntax highlighting for xonsh files. | ![Linux] ![Windows] ![macOS] | |
 | [yazi_micro] (Yes) | Yazi file explorer integration for micro. | ![Linux] ![macOS] | [yazi] |
@@ -192,6 +193,7 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 [uchardet]: https://github.com/niten94/micro-uchardet
 [urlopen]: https://github.com/pjg11/micro-urlopen
 [usr1_reload]: https://github.com/usfbih8u/micro-usr1-reload
+[vscode-dark-theme]: https://github.com/milnak/micro-vscode-default-dark-theme
 [wakatime]: https://github.com/wakatime/micro-wakatime
 [xonsh]: https://codeberg.org/micro-plugins/xonsh
 [yazi_micro]: https://github.com/kanvolu/yazi.micro
