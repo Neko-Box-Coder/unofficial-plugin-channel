@@ -34,7 +34,7 @@ To add the unofficial **main** channel, add it to the `pluginchannels` array in 
 - `https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/channel.json`
 
 > [!IMPORTANT]
-> `pluginchannels` is evaluated in order, and by default it is pointed to the official plugin channel.
+> `pluginchannels` is evaluated in order, and by default it is pointed to the official plugin channel. 
 > 
 > By assigning it to something else, the official plugin channel will not be used anymore.
 >
