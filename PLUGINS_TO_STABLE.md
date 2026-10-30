@@ -14,4 +14,5 @@ Put the name of the plugin as a list item here, So like
 - usr1_reload
 - diff_preview
 - autocd
-- vscode-default-dark
+- vscode-default-dark-theme
+
