@@ -21,6 +21,8 @@
     "https://raw.githubusercontent.com/terokarvinen/micro-cheat/main/repo.json",
     //colorschemes
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/plugins/colorschemes.json",
+    //ctags
+    "https://raw.githubusercontent.com/milnak/micro-ctags/refs/heads/main/repo.json",
     //dedent
     "https://raw.githubusercontent.com/Jenny-hso/micro-dedent/refs/heads/main/repo.json",
     //delve
@@ -97,6 +99,8 @@
     "https://raw.githubusercontent.com/vish9812/micro-scrollz/main/repo.json",
     //selto
     "https://raw.githubusercontent.com/PawelMTRK/micro-selto-plugin/main/repo.json",
+    //sortlines
+    "https://raw.githubusercontent.com/milnak/micro-sortlines/refs/heads/main/repo.json",
     //splitterm
     "https://raw.githubusercontent.com/lukhof/splitterm/main/repo.json",
     //sunny-day-theme
@@ -114,7 +118,7 @@
     //usr1_reload
     "https://raw.githubusercontent.com/usfbih8u/micro-usr1-reload/master/repo.json",
     //wakatime
-    "https://raw.githubusercontent.com/wakatime/micro-wakatime/master/repo.json",    
+    "https://raw.githubusercontent.com/wakatime/micro-wakatime/master/repo.json",
     //xonsh
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/plugins/xonsh.json",
     //yazi
