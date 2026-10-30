@@ -20,26 +20,26 @@ Edit your `settings.json` located in `~/.config/micro` (Unix) or `C:\Users\<your
 > [!IMPORTANT]
 > You are currently in **main** channel
 
-There are 2 channels you can choose, [stable](https://github.com/Neko-Box-Coder/unofficial-plugin-channel/tree/stable) (recommended) or
+There are 2 channels you can choose, [stable](https://github.com/Neko-Box-Coder/unofficial-plugin-channel/tree/stable) (recommended) or 
 [main](https://github.com/Neko-Box-Coder/unofficial-plugin-channel/tree/main).
 
-- **Stable**
+- **Stable** 
     - All the plugins in this channel are located in this repo and **checked** to not contain malicious code.
     - This channel is relatively slow to update, but very stable. Click [here](https://github.com/Neko-Box-Coder/unofficial-plugin-channel/tree/stable) to go to the stable channel
-- **Main**
-    - All the plugins are located externally with the latest update.
+- **Main** 
+    - All the plugins are located externally with the latest update. 
     - But it is possible to contain malicious code (i.e. supply chain attack). Click [here](https://github.com/Neko-Box-Coder/unofficial-plugin-channel/tree/main) to go to the main channel
 
-To add the unofficial **main** channel, add it to the `pluginchannels` array in `settings.json`.
+To add the unofficial **main** channel, add it to the `pluginchannels` array in `settings.json`. 
 - `https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/channel.json`
 
 > [!IMPORTANT]
 > `pluginchannels` is evaluated in order, and by default it is pointed to the official plugin channel.
->
+> 
 > By assigning it to something else, the official plugin channel will not be used anymore.
 >
-> If you still want to have access to the official one, simple append
->
+> If you still want to have access to the official one, simple append 
+> 
 > `https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json`
 
 For example,
@@ -220,6 +220,7 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 [aspell_]: http://aspell.net/
 [bat]: https://github.com/sharkdp/bat
 [calc_]: https://github.com/lcn2/calc
+[ctags]: https://github.com/universal-ctags/ctags
 [delve_]: https://github.com/go-delve/delve/tree/master
 [diff on windows]: https://gnuwin32.sourceforge.net/packages/diffutils.htm
 [fd]: https://github.com/sharkdp/fd
