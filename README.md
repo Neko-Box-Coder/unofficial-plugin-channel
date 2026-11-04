@@ -204,11 +204,7 @@ For example,
 [Windows]: https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white -->
 
 [Linux]: https://img.shields.io/badge/--FCC624?logo=linux&logoColor=000000
-
-<!-- It seems like the windows icon is being take down for copyright review -->
-<!-- See https://github.com/simple-icons/simple-icons/pull/10019 -->
-<!-- [Windows]: https://img.shields.io/badge/--08a1f7?logo=windows&logoColor=ffffff -->
-[Windows]: https://img.shields.io/badge/⊞-0078D4
+[Windows]: https://img.shields.io/badge/--0078D4?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TWljcm9zb2Z0PC90aXRsZT48cGF0aCBkPSJNMCAwdjExLjQwOGgxMS40MDhWMHptMTIuNTk0IDB2MTEuNDA4SDI0VjB6TTAgMTIuNTk0VjI0aDExLjQwOFYxMi41OTR6bTEyLjU5NCAwVjI0SDI0VjEyLjU5NHoiLz48L3N2Zz4=
 [macOS]: https://img.shields.io/badge/--181717?logo=apple
 
 [ag_]: https://github.com/ggreer/the_silver_searcher
