@@ -58,7 +58,7 @@ For example,
 
 \* A plugin is considered maintained if there's no outstanding issues or last update is within a year ago
 
-| Name (Maintained?) | Description | OS&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240; | Requirements |
+| Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#10240; | Requirements |
 | -- | -- | -- | -- |
 | [acme] (Yes) | An acme style editing plugin for the micro editor. | ![Linux] ![macOS] | |
 | [ag] (Yes) | This plugin provides the ability to search with "ag" (aka the_silver_searcher). | ![Linux] ![Windows] ![macOS] | [ag_] |
