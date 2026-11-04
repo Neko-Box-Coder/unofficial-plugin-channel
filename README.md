@@ -20,26 +20,27 @@ Edit your `settings.json` located in `~/.config/micro` (Unix) or `C:\Users\<your
 > [!IMPORTANT]
 > You are currently in **main** channel
 
-There are 2 channels you can choose, [stable](https://github.com/Neko-Box-Coder/unofficial-plugin-channel/tree/stable) (recommended) or 
+There are 2 channels you can choose, [stable](https://github.com/Neko-Box-Coder/unofficial-plugin-channel/tree/stable) (recommended) or
 [main](https://github.com/Neko-Box-Coder/unofficial-plugin-channel/tree/main).
 
-- **Stable** 
-    - All the plugins in this channel are located in this repo and **checked** to not contain malicious code.
-    - This channel is relatively slow to update, but very stable. Click [here](https://github.com/Neko-Box-Coder/unofficial-plugin-channel/tree/stable) to go to the stable channel
-- **Main** 
-    - All the plugins are located externally with the latest update. 
-    - But it is possible to contain malicious code (i.e. supply chain attack). Click [here](https://github.com/Neko-Box-Coder/unofficial-plugin-channel/tree/main) to go to the main channel
+- **Stable**
+  - All the plugins in this channel are located in this repo and **checked** to not contain malicious code.
+  - This channel is relatively slow to update, but very stable. If you prefer, [go to the stable channel](https://github.com/Neko-Box-Coder/unofficial-plugin-channel/tree/stable).
+- **Main**
+  - All the plugins are located externally with the latest update.
+  - But it is possible to contain malicious code (i.e. supply chain attack). If you prefer, [go to the main channel](https://github.com/Neko-Box-Coder/unofficial-plugin-channel/tree/main).
 
-To add the unofficial **main** channel, add it to the `pluginchannels` array in `settings.json`. 
+To add the unofficial **main** channel, add it to the `pluginchannels` array in `settings.json`.
+
 - `https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/channel.json`
 
 > [!IMPORTANT]
-> `pluginchannels` is evaluated in order, and by default it is pointed to the official plugin channel. 
-> 
+> `pluginchannels` is evaluated in order, and by default it is pointed to the official plugin channel.
+>
 > By assigning it to something else, the official plugin channel will not be used anymore.
 >
-> If you still want to have access to the official one, simple append 
-> 
+> If you still want to have access to the official one, simple append
+>
 > `https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json`
 
 For example,
@@ -57,51 +58,51 @@ For example,
 
 \* A plugin is considered maintained if there's no outstanding issues or last update is within a year ago
 
-Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#10240; | Requirements |
+| Name (Maintained?) | Description | OS&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240; | Requirements |
 | -- | -- | -- | -- |
 | [acme] (Yes) | An acme style editing plugin for the micro editor. | ![Linux] ![macOS] | |
-| [ag] (Yes) | This plugin provides the ability to search with "ag" (aka the_silver_searcher). | ![Linux] ![macOS] ![Windows] | [ag_] |
-| [align] (Yes) | Simple plugin to align multiple cursors in micro. | ![Linux] ![macOS] ![Windows] | |
-| [aspell] <br> (No, has issues and last updated 4 years ago) | Spellchecking with Aspell. | ![Linux] ![macOS] ![Windows] | [aspell_] |
-| [autocd] (Yes) | Automatically `>cd` to project folders as you visit files. | ![Linux] ![macOS] ![Windows] | [xdg-user-dirs_] (optional) |
-| [autocomplete_tooltip] (Yes) | Display Autocomplete suggestions in a Tooltip. | ![Linux] ![macOS] ![Windows] | |
+| [ag] (Yes) | This plugin provides the ability to search with "ag" (aka the_silver_searcher). | ![Linux] ![Windows] ![macOS] | [ag_] |
+| [align] (Yes) | Simple plugin to align multiple cursors in micro. | ![Linux] ![Windows] ![macOS] | |
+| [aspell] (No, has issues and last updated 4 years ago) | Spellchecking with Aspell. | ![Linux] ![Windows] ![macOS] | [aspell_] |
+| [autocd] (Yes) | Automatically `>cd` to project folders as you visit files. | ![Linux] ![Windows] ![macOS] | [xdg-user-dirs_] (optional) |
+| [autocomplete_tooltip] (Yes) | Display Autocomplete suggestions in a Tooltip. | ![Linux] ![Windows] ![macOS] | |
 | [battery] (Yes) | Shows battery percentage on infobar. | ![Linux] | |
 | [calc] (Yes) | Add calc command for calculating math. | ![Linux] | [calc_] |
-| [capitalizer] <br> (No, upstream gone) | A simple micro-editor plugin that allows to capitalize selected text. | ![Linux] ![macOS] ![Windows] | |
-| [cheat] <br> (No, has issues and last updated 1 year ago) | F1 cheatsheet for the language you're editing: Python, Go, Lua... | ![Linux] ![macOS] ![Windows] | |
-| [colorschemes] <br> (No, upstream gone) | Colorschemes aggregator. | ![Linux] ![Windows] ![macOS] | |
+| [capitalizer] (No, upstream gone) | A simple micro-editor plugin that allows to capitalize selected text. | ![Linux] ![Windows] ![macOS] | |
+| [cheat] (No, has issues and last updated 1 year ago) | F1 cheatsheet for the language you're editing: Python, Go, Lua... | ![Linux] ![Windows] ![macOS] | |
+| [colorschemes] (No, upstream gone) | Colorschemes aggregator. | ![Linux] ![Windows] ![macOS] | |
 | [dedent] (Yes) | A sister plugin of [indent]. Dedents a new line if a current one is matched by a regex | ![Linux] | |
 | [delve] (Yes) | Integrates golang delve debugger. | ![Linux] ![Windows] ![macOS] | [delve_], `HOME`environment variable |
-| [diff_preview] (Yes) | Display a preview of Git diffs in a tooltip. | ![Linux] ![macOS] ![Windows] | [git] |
+| [diff_preview] (Yes) | Display a preview of Git diffs in a tooltip. | ![Linux] ![Windows] ![macOS] | [git] |
 | [emacs_select] (Yes) | Emacs-style selection for Micro. | ![Linux] ![Windows] ![macOS] | |
 | [ember] (Yes) | Four warm truecolor colorschemes: two transparent darks (warm and cool neutrals), one opaque dark, one light. | ![Linux] ![Windows] ![macOS] | Truecolor terminal |
 | [filemanager2] (Yes) | Plugin that allows for easy navigation of a file tree. | ![Linux] ![Windows] ![macOS] | |
-| [findinfolder] <br> (No, upstream gone) | Folder search support. | ![Linux] ![macOS] |  [ripgrep], [fzf], [bat] |
+| [findinfolder] (No, upstream gone) | Folder search support. | ![Linux] ![macOS] | [ripgrep], [fzf], [bat] |
 | [fzfinder] (Yes) | Integrate fzf to select and search for your project files. | ![Linux] ![Windows] ![macOS] | [fzf], (Optional) [bat] |
 | [gitStatus] (Yes) | Information about git in status bar. | ![Linux] ![Windows] ![macOS] | [git] |
 | [grepsearch] (Yes) | Using grep to recursively search in files. | ![Linux] ![Windows] ![macOS] | [grep on windows] |
 | [gutter_message] (Yes) | Display gutter messages in a tooltip. | ![Linux] ![Windows] ![macOS] | |
 | [gzplugin] (Yes) | Read and write .gzip files. | ![Linux] ![Windows] ![macOS] | |
-| [iconic_tabs] (Yes) | Replace the default tab bar with iconized tabs |  ![Linux] ![Windows] ![macOS] | |
+| [iconic_tabs] (Yes) | Replace the default tab bar with iconized tabs | ![Linux] ![Windows] ![macOS] | |
 | [indent] (Yes) | Autoindent a new line if a current line matches a regexp | ![Linux] | |
-| [language_env] <br> (No, upstream gone) | Syntax highlighting for files with .env extension. | ![Linux] ![Windows] ![macOS] | |
-| [language_ignore] <br> (No, upstream gone) | Adds syntax highlighting to 'ignore' files. | ![Linux] ![Windows] ![macOS] | |
-| [language_kv] <br> (No, upstream gone) | Syntax highlighting for kvlang. | ![Linux] ![Windows] ![macOS] | |
-| [language_log] <br> (No, upstream gone) | Syntax highlighting for files with .log extension. | ![Linux] ![Windows] ![macOS] | |
+| [language_env] (No, upstream gone) | Syntax highlighting for files with .env extension. | ![Linux] ![Windows] ![macOS] | |
+| [language_ignore] (No, upstream gone) | Adds syntax highlighting to 'ignore' files. | ![Linux] ![Windows] ![macOS] | |
+| [language_kv] (No, upstream gone) | Syntax highlighting for kvlang. | ![Linux] ![Windows] ![macOS] | |
+| [language_log] (No, upstream gone) | Syntax highlighting for files with .log extension. | ![Linux] ![Windows] ![macOS] | |
 | [latexplugin] (Yes) | Latex plugin for Micro editor. Main aim is to provide synctex support. | ![Linux] ![macOS] | [pdflatex], [python] |
 | [lintertypescript] (Yes) | Ability to lint your Typescript (.ts & .tsx) files with tsc. | ![Linux] ![Windows] ![macOS] | [typescript] |
-| [llm] (Yes) | Integrates Simon Willison's LLM CLI with the Micro editor. This plugin allows you to leverage Large Language Models directly within Micro for text generation, modification, and custom-defined tasks through templates. | ![Linux] ![Windows] ![macOS] |[llm_] |
-| [markdown_autocomplete] (Yes) | Basic Autocomplete for Markdown files. | Linux Windows macOS |
-| [manager] <br> (No, upstream gone) | Provides a way to manage linters, formatters, commands, keybindings, settings, plugins. | ![Linux] ![macOS] | [fzf], unknown... |
+| [llm] (Yes) | Integrates Simon Willison's LLM CLI with the Micro editor. This plugin allows you to leverage Large Language Models directly within Micro for text generation, modification, and custom-defined tasks through templates. | ![Linux] ![Windows] ![macOS] | [llm_] |
+| [markdown_autocomplete] (Yes) | Basic Autocomplete for Markdown files. | ![Linux] ![Windows] ![macOS] | |
+| [manager] (No, upstream gone) | Provides a way to manage linters, formatters, commands, keybindings, settings, plugins. | ![Linux] ![macOS] | [fzf], unknown... |
 | [mdtree] (Yes) | A plugin for the micro text editor to add sidebar for jumpring and viewing TOC of markdown files. | ![Linux] ![Windows] ![macOS] | |
 | [MicroOmni] (Yes) | A swiss army knife plugin that super charges ⚡️ your micro text editor with fuzzy search, diffs, etc. | ![Linux] ![Windows] ![macOS] | [fzf], [bat], [ripgrep], [diff on windows] |
 | [microwiki] (Yes) | Like vimwiki but for micro. | ![Linux] ![Windows] ![macOS] | |
 | [microzim] (Yes) | Basic manipulation of ZIM-Wiki files. | ![Linux] ![Windows] ![macOS] | |
 | [mxc] (Yes) | The microExecuter. Hit F5 to execute any script from the Micro buffer! | ![Linux] ![macOS] | |
-| [nelua] <br> (No, has issues and last updated 4 years ago) | Nelua support for Micro text editor. | ![Linux] ![Windows] ![macOS] | [nelua_] |
+| [nelua] (No, has issues and last updated 4 years ago) | Nelua support for Micro text editor. | ![Linux] ![Windows] ![macOS] | [nelua_] |
 | [nix] (Yes) | nix-linter plugin and syntax. | ![Linux] ![Windows] ![macOS] | [nix_] |
 | [palette] (Yes) | Searchable palette for micro's help, its options, colorschemes with live preview, open buffers and files. The first character of the query picks which. | ![Linux] ![Windows] ![macOS] | |
-| [palettero] <br> (Yes, but missing version line) | Command palette - Ctrl-P to fuzzy search & run commands, textfilters and descriptions | ![Linux] ![macOS] | [fzf], (Optional) [pythonpy] |
+| [palettero] (Yes, but missing version line) | Command palette - Ctrl-P to fuzzy search & run commands, textfilters and descriptions | ![Linux] ![macOS] | [fzf], (Optional) [pythonpy] |
 | [prettier] (Yes) | This plugin provides the ability to format your code with Prettier. | ![Linux] ![Windows] ![macOS] | [prettier_] |
 | [preview] (Yes) | A very simple plugin to preview markdown in a second editor pane using pandoc. | ![Linux] ![Windows] ![macOS] | [pandoc] |
 | [repfiles] (Yes) | A filemanager for your git-repository. | ![Linux] ![macOS] | |
@@ -109,15 +110,15 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 | [scrollz] (Yes) | Scroll the cursor's line to the top or bottom of the view, and half-page jumps that bring the cursor with you, centered. | ![Linux] ![Windows] ![macOS] | |
 | [selto] (Yes) | Simple plugin allowing to quickly select lines. | ![Linux] ![Windows] ![macOS] | |
 | [splitterm] (Yes) | Run a file or a selection of an inerpreted language within a new terminal window. | ![Linux] ![Windows] ![macOS] | |
-| [sunny-day-theme] <br> (No, repository was archived) | Port of the Emacs theme by Martin Haesler. | ![Linux] ![Windows] ![macOS] | |
-| [testaustime] <br> (Yes, but has minor issue) | Testaustime coding activity tracker for micro. | ![Linux] ![macOS] | |
-| [tojour] (Yes) | Low-overhead daily journalling, todo and habit tracking IDE in micro. | ![Linux] |  [fzf], [python], [ripgrep], [fd], xclip (optional), [imagemagick] (optional), [nnn] (optional) |
+| [sunny-day-theme] (No, repository was archived) | Port of the Emacs theme by Martin Haesler. | ![Linux] ![Windows] ![macOS] | |
+| [testaustime] (Yes, but has minor issue) | Testaustime coding activity tracker for micro. | ![Linux] ![macOS] | |
+| [tojour] (Yes) | Low-overhead daily journalling, todo and habit tracking IDE in micro. | ![Linux] | [fzf], [python], [ripgrep], [fd], xclip (optional), [imagemagick] (optional), [nnn] (optional) |
 | [transform] (Yes) | Plugin to do various kind of text transformations in Micro. | ![Linux] ![Windows] ![macOS] | |
 | [uchardet] (Yes) | Encoding detection. | ![Linux] ![Windows] ![macOS] | [uchardet_] |
 | [urlopen] (Yes) | A plugin for the micro text editor to add support for opening URLs in text files. | ![macOS] | |
 | [usr1_reload] (Yes) | Plugin to reload micro externally. | ![Linux] ![macOS] | |
-| [wakatime] <br> (Yes, but minor performance issue) | Metrics, insights, and time tracking automatically generated from your programming activity. | ![Linux] ![Windows] ![macOS] | |
-| [xonsh] <br> (No, upstream gone) | Syntax highlighting for xonsh files. | ![Linux] ![Windows] ![macOS] | |
+| [wakatime] (Yes, but minor performance issue) | Metrics, insights, and time tracking automatically generated from your programming activity. | ![Linux] ![Windows] ![macOS] | |
+| [xonsh] (No, upstream gone) | Syntax highlighting for xonsh files. | ![Linux] ![Windows] ![macOS] | |
 | [yazi_micro] (Yes) | Yazi file explorer integration for micro. | ![Linux] ![macOS] | [yazi] |
 
 ## ➕ Adding a plugin
@@ -128,12 +129,12 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 4. Modify `PLUGINS_TO_STABLE.md` and add the name of the plugin
 
 ## 🔼 Updating a plugin for both main and stable
+
 1. Create a PR to `main`
 2. Modify `README.md` for the plugin if needed
 3. Modify `channel.json` if `repo.json` is in a different url
 4. Modify `PLUGINS_TO_STABLE.md` and add the name of the plugin
 5. If there's any change needed to be made to `stable`, specify in PR.
-
 
 [acme]: https://github.com/xxuejie/micro-acme
 [align]: https://github.com/mosskjohnson/align-plugin
@@ -196,8 +197,6 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 [xonsh]: https://codeberg.org/micro-plugins/xonsh
 [yazi_micro]: https://github.com/kanvolu/yazi.micro
 
-
-
 <!-- Resources/Links -->
 
 <!--[Linux]: https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black
@@ -209,10 +208,8 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 <!-- It seems like the windows icon is being take down for copyright review -->
 <!-- See https://github.com/simple-icons/simple-icons/pull/10019 -->
 <!-- [Windows]: https://img.shields.io/badge/--08a1f7?logo=windows&logoColor=ffffff -->
-[Windows]: https://badgen.net/badge/_/Win10?icon=windows&label
+[Windows]: https://img.shields.io/badge/⊞-0078D4
 [macOS]: https://img.shields.io/badge/--181717?logo=apple
-
-
 
 [ag_]: https://github.com/ggreer/the_silver_searcher
 [aspell_]: http://aspell.net/
@@ -226,7 +223,7 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 [git]: https://git-scm.com/
 [grep on windows]: https://github.com/mbuilov/grep-windows
 [imagemagick]: https://github.com/ImageMagick/ImageMagick
-[llm_]: https://github.com/simonw/llm 
+[llm_]: https://github.com/simonw/llm
 [nelua_]: https://nelua.io/
 [nix_]: https://nixos.org/
 [nnn]: https://github.com/jarun/nnn
@@ -240,4 +237,3 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 [uchardet_]: https://www.freedesktop.org/wiki/Software/uchardet/
 [xdg-user-dirs_]: https://www.freedesktop.org/wiki/Software/xdg-user-dirs
 [yazi]: https://yazi-rs.github.io/
-
