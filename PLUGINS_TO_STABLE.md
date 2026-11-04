@@ -15,4 +15,4 @@ Put the name of the plugin as a list item here, So like
 - diff_preview
 - autocd
 - vscode-default-dark-theme
-
+- sortlines
