@@ -20,26 +20,26 @@ Edit your `settings.json` located in `~/.config/micro` (Unix) or `C:\Users\<your
 > [!IMPORTANT]
 > You are currently in **main** channel
 
-There are 2 channels you can choose, [stable](https://github.com/Neko-Box-Coder/unofficial-plugin-channel/tree/stable) (recommended) or 
+There are 2 channels you can choose, [stable](https://github.com/Neko-Box-Coder/unofficial-plugin-channel/tree/stable) (recommended) or
 [main](https://github.com/Neko-Box-Coder/unofficial-plugin-channel/tree/main).
 
-- **Stable** 
+- **Stable**
     - All the plugins in this channel are located in this repo and **checked** to not contain malicious code.
     - This channel is relatively slow to update, but very stable. Click [here](https://github.com/Neko-Box-Coder/unofficial-plugin-channel/tree/stable) to go to the stable channel
-- **Main** 
-    - All the plugins are located externally with the latest update. 
+- **Main**
+    - All the plugins are located externally with the latest update.
     - But it is possible to contain malicious code (i.e. supply chain attack). Click [here](https://github.com/Neko-Box-Coder/unofficial-plugin-channel/tree/main) to go to the main channel
 
-To add the unofficial **main** channel, add it to the `pluginchannels` array in `settings.json`. 
+To add the unofficial **main** channel, add it to the `pluginchannels` array in `settings.json`.
 - `https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/channel.json`
 
 > [!IMPORTANT]
-> `pluginchannels` is evaluated in order, and by default it is pointed to the official plugin channel. 
-> 
+> `pluginchannels` is evaluated in order, and by default it is pointed to the official plugin channel.
+>
 > By assigning it to something else, the official plugin channel will not be used anymore.
 >
-> If you still want to have access to the official one, simple append 
-> 
+> If you still want to have access to the official one, simple append
+>
 > `https://raw.githubusercontent.com/micro-editor/plugin-channel/master/channel.json`
 
 For example,
@@ -117,6 +117,7 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 | [uchardet] (Yes) | Encoding detection. | ![Linux] ![Windows] ![macOS] | [uchardet_] |
 | [urlopen] (Yes) | A plugin for the micro text editor to add support for opening URLs in text files. | ![macOS] | |
 | [usr1_reload] (Yes) | Plugin to reload micro externally. | ![Linux] ![macOS] | |
+| [vscode-default-dark-theme] (Yes) <br> | Port of the vscode "Default Dark" theme. | ![Linux] ![Windows] ![macOS] | |
 | [wakatime] <br> (Yes, but minor performance issue) | Metrics, insights, and time tracking automatically generated from your programming activity. | ![Linux] ![Windows] ![macOS] | |
 | [xonsh] <br> (No, upstream gone) | Syntax highlighting for xonsh files. | ![Linux] ![Windows] ![macOS] | |
 | [yazi_micro] (Yes) | Yazi file explorer integration for micro. | ![Linux] ![macOS] | [yazi] |
@@ -194,6 +195,7 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 [uchardet]: https://github.com/niten94/micro-uchardet
 [urlopen]: https://github.com/pjg11/micro-urlopen
 [usr1_reload]: https://github.com/usfbih8u/micro-usr1-reload
+[vscode-default-dark-theme]: https://github.com/milnak/micro-vscode-default-dark-theme
 [wakatime]: https://github.com/wakatime/micro-wakatime
 [xonsh]: https://codeberg.org/micro-plugins/xonsh
 [yazi_micro]: https://github.com/kanvolu/yazi.micro
@@ -228,7 +230,7 @@ Name (Maintained?) | Description | &#10240;&#10240;&#10240;OS&#10240;&#10240;&#1
 [git]: https://git-scm.com/
 [grep on windows]: https://github.com/mbuilov/grep-windows
 [imagemagick]: https://github.com/ImageMagick/ImageMagick
-[llm_]: https://github.com/simonw/llm 
+[llm_]: https://github.com/simonw/llm
 [nelua_]: https://nelua.io/
 [nix_]: https://nixos.org/
 [nnn]: https://github.com/jarun/nnn

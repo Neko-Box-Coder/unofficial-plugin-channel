@@ -115,6 +115,8 @@
     "https://raw.githubusercontent.com/pjg11/micro-urlopen/main/repo.json",
     //usr1_reload
     "https://raw.githubusercontent.com/usfbih8u/micro-usr1-reload/master/repo.json",
+    //vscode-default-dark-theme
+    "https://raw.githubusercontent.com/milnak/micro-vscode-default-dark-theme/main/repo.json",
     //wakatime
     "https://raw.githubusercontent.com/wakatime/micro-wakatime/master/repo.json",    
     //xonsh
