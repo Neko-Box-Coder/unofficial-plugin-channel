@@ -199,12 +199,14 @@ For example,
 
 <!-- Resources/Links -->
 
-<!--[Linux]: https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black
+<!--
+[Linux]: https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black
 [macOS]: https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0
-[Windows]: https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white -->
+[Windows]: https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white
+-->
 
 [Linux]: https://img.shields.io/badge/--FCC624?logo=linux&logoColor=000000
-[Windows]: https://img.shields.io/badge/--0078D4?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TWljcm9zb2Z0PC90aXRsZT48cGF0aCBkPSJNMCAwdjExLjQwOGgxMS40MDhWMHptMTIuNTk0IDB2MTEuNDA4SDI0VjB6TTAgMTIuNTk0VjI0aDExLjQwOFYxMi41OTR6bTEyLjU5NCAwVjI0SDI0VjEyLjU5NHoiLz48L3N2Zz4=
+[Windows]: https://img.shields.io/badge/--0078D4?logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHJvbGU9ImltZyIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDx0aXRsZT5NaWNyb3NvZnQ8L3RpdGxlPgogIDxwYXRoIGQ9Ik0wIDB2MTEuNDA4aDExLjQwOFYwem0xMi41OTQgMHYxMS40MDhIMjRWMHpNMCAxMi41OTRWMjRoMTEuNDA4VjEyLjU5NHptMTIuNTk0IDBWMjRIMjRWMTIuNTk0eiIgZmlsbD0id2hpdGUiIC8+Cjwvc3ZnPg==
 [macOS]: https://img.shields.io/badge/--181717?logo=apple
 
 [ag_]: https://github.com/ggreer/the_silver_searcher
