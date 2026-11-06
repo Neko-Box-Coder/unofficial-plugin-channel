@@ -71,6 +71,7 @@ For example,
 | [capitalizer] (No, upstream gone) | A simple micro-editor plugin that allows to capitalize selected text. | ![Linux] ![Windows] ![macOS] | |
 | [cheat] (No, has issues and last updated 1 year ago) | F1 cheatsheet for the language you're editing: Python, Go, Lua... | ![Linux] ![Windows] ![macOS] | |
 | [colorschemes] (No, upstream gone) | Colorschemes aggregator. | ![Linux] ![Windows] ![macOS] | |
+| [ctags] (Yes) | provides "tags" lookup for any function, class or heading with jump functionality.| ![Linux] ![Windows] ![macOS] | [ctags_], [fzf] |
 | [dedent] (Yes) | A sister plugin of [indent]. Dedents a new line if a current one is matched by a regex | ![Linux] | |
 | [delve] (Yes) | Integrates golang delve debugger. | ![Linux] ![Windows] ![macOS] | [delve_], `HOME`environment variable |
 | [diff_preview] (Yes) | Display a preview of Git diffs in a tooltip. | ![Linux] ![Windows] ![macOS] | [git] |
@@ -109,6 +110,7 @@ For example,
 | [runit] (Yes) | F5 to save and run, F12 to 'make', F9 to 'make' in background. Go, Python, Lua and executable file (#!) supported. Can 'make' whole project even from subdir. | ![Linux] ![macOS] | Different tools depending on file type, but [firefox-esr] for html |
 | [scrollz] (Yes) | Scroll the cursor's line to the top or bottom of the view, and half-page jumps that bring the cursor with you, centered. | ![Linux] ![Windows] ![macOS] | |
 | [selto] (Yes) | Simple plugin allowing to quickly select lines. | ![Linux] ![Windows] ![macOS] | |
+| [sortlines] (Yes) | Line sorting plugin. | ![Linux] ![Windows] ![macOS] | |
 | [splitterm] (Yes) | Run a file or a selection of an inerpreted language within a new terminal window. | ![Linux] ![Windows] ![macOS] | |
 | [sunny-day-theme] (No, repository was archived) | Port of the Emacs theme by Martin Haesler. | ![Linux] ![Windows] ![macOS] | |
 | [testaustime] (Yes, but has minor issue) | Testaustime coding activity tracker for micro. | ![Linux] ![macOS] | |
@@ -117,6 +119,7 @@ For example,
 | [uchardet] (Yes) | Encoding detection. | ![Linux] ![Windows] ![macOS] | [uchardet_] |
 | [urlopen] (Yes) | A plugin for the micro text editor to add support for opening URLs in text files. | ![macOS] | |
 | [usr1_reload] (Yes) | Plugin to reload micro externally. | ![Linux] ![macOS] | |
+| [vscode-default-dark-theme] (Yes) | Port of the vscode "Default Dark" theme. | ![Linux] ![Windows] ![macOS] | |
 | [wakatime] (Yes, but minor performance issue) | Metrics, insights, and time tracking automatically generated from your programming activity. | ![Linux] ![Windows] ![macOS] | |
 | [xonsh] (No, upstream gone) | Syntax highlighting for xonsh files. | ![Linux] ![Windows] ![macOS] | |
 | [yazi_micro] (Yes) | Yazi file explorer integration for micro. | ![Linux] ![macOS] | [yazi] |
@@ -147,6 +150,7 @@ For example,
 [capitalizer]: https://github.com/CodeGiorgino/capitalizer
 [cheat]: https://github.com/terokarvinen/micro-cheat
 [colorschemes]: https://codeberg.org/micro-plugins/colorschemes
+[ctags]: https://github.com/milnak/micro-ctags
 [dedent]: https://github.com/Jenny-hso/micro-dedent
 [delve]: https://github.com/serge-v/micro-delve
 [diff_preview]: https://github.com/usfbih8u/micro-diff-preview
@@ -185,6 +189,7 @@ For example,
 [runit]: https://github.com/terokarvinen/micro-run
 [scrollz]: https://github.com/vish9812/micro-scrollz
 [selto]: https://github.com/PawelMTRK/micro-selto-plugin
+[sortlines]: https://github.com/milnak/micro-sortlines
 [splitterm]: https://github.com/lukhof/splitterm
 [sunny-day-theme]: https://github.com/dwwmmn/micro-sunny-day
 [testaustime]: https://github.com/testaustime/testaustime-micro
@@ -193,6 +198,7 @@ For example,
 [uchardet]: https://github.com/niten94/micro-uchardet
 [urlopen]: https://github.com/pjg11/micro-urlopen
 [usr1_reload]: https://github.com/usfbih8u/micro-usr1-reload
+[vscode-default-dark-theme]: https://github.com/milnak/micro-vscode-default-dark-theme
 [wakatime]: https://github.com/wakatime/micro-wakatime
 [xonsh]: https://codeberg.org/micro-plugins/xonsh
 [yazi_micro]: https://github.com/kanvolu/yazi.micro
@@ -213,6 +219,7 @@ For example,
 [aspell_]: http://aspell.net/
 [bat]: https://github.com/sharkdp/bat
 [calc_]: https://github.com/lcn2/calc
+[ctags_]: https://github.com/universal-ctags/ctags
 [delve_]: https://github.com/go-delve/delve/tree/master
 [diff on windows]: https://gnuwin32.sourceforge.net/packages/diffutils.htm
 [fd]: https://github.com/sharkdp/fd

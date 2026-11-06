@@ -14,13 +14,15 @@
     //battery
     "https://raw.githubusercontent.com/dubyte/micro-battery/main/repo.json",
     //calc
-    "https://notabug.org/dustdfg/micro-calc/raw/master/repo.json",
+    "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/raw/refs/heads/stable/plugins/calc.json",
     //capitalizer
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/stable/plugins/capitalizer.json",
     //cheat
     "https://raw.githubusercontent.com/terokarvinen/micro-cheat/main/repo.json",
     //colorschemes
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/plugins/colorschemes.json",
+    //ctags
+    "https://raw.githubusercontent.com/milnak/micro-ctags/refs/heads/main/repo.json",
     //dedent
     "https://raw.githubusercontent.com/Jenny-hso/micro-dedent/refs/heads/main/repo.json",
     //delve
@@ -68,7 +70,7 @@
     //markdown_autocomplete
     "https://raw.githubusercontent.com/dalekirkwood/markdown-autocomplete/main/repo.json",
     //mdtree
-    "https://notabug.org/dustdfg/micro-mdtree/raw/master/repo.json",
+    "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/raw/refs/heads/stable/plugins/mdtree.json", 
     //MicroOmni
     "https://raw.githubusercontent.com/Neko-Box-Coder/MicroOmni/master/repo.json",
     //microwiki
@@ -76,7 +78,7 @@
     //microzim
     "https://raw.githubusercontent.com/ihavenomouth/microzim/main/repo.json",
     //mxc
-    "https://raw.githubusercontent.com/cadnza/mxc/main/repo.json",
+    "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/raw/refs/heads/stable/plugins/mxc.json",
     //nelua
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/plugins/nelua.json",
     //nix
@@ -97,6 +99,8 @@
     "https://raw.githubusercontent.com/vish9812/micro-scrollz/main/repo.json",
     //selto
     "https://raw.githubusercontent.com/PawelMTRK/micro-selto-plugin/main/repo.json",
+    //sortlines
+    "https://raw.githubusercontent.com/milnak/micro-sortlines/refs/heads/main/repo.json",
     //splitterm
     "https://raw.githubusercontent.com/lukhof/splitterm/main/repo.json",
     //sunny-day-theme
@@ -113,6 +117,8 @@
     "https://raw.githubusercontent.com/pjg11/micro-urlopen/main/repo.json",
     //usr1_reload
     "https://raw.githubusercontent.com/usfbih8u/micro-usr1-reload/master/repo.json",
+    //vscode-default-dark-theme
+    "https://raw.githubusercontent.com/milnak/micro-vscode-default-dark-theme/main/repo.json",
     //wakatime
     "https://raw.githubusercontent.com/wakatime/micro-wakatime/master/repo.json",    
     //xonsh
