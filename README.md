@@ -71,7 +71,7 @@ For example,
 | [capitalizer] (No, upstream gone) | A simple micro-editor plugin that allows to capitalize selected text. | ![Linux] ![Windows] ![macOS] | |
 | [cheat] (No, has issues and last updated 1 year ago) | F1 cheatsheet for the language you're editing: Python, Go, Lua... | ![Linux] ![Windows] ![macOS] | |
 | [colorschemes] (No, upstream gone) | Colorschemes aggregator. | ![Linux] ![Windows] ![macOS] | |
-| [ctags] (Yes) | provides "tags" lookup for any function, class or heading with jump functionality.| ![Linux] ![Windows] ![macOS] | [ctags_], [fzf] |
+| [ctags] (Yes) | provides "tags" lookup for any function, class or heading with jump functionality. | ![Linux] ![Windows] ![macOS] | [ctags_], [fzf] |
 | [dedent] (Yes) | A sister plugin of [indent]. Dedents a new line if a current one is matched by a regex | ![Linux] | |
 | [delve] (Yes) | Integrates golang delve debugger. | ![Linux] ![Windows] ![macOS] | [delve_], `HOME`environment variable |
 | [diff_preview] (Yes) | Display a preview of Git diffs in a tooltip. | ![Linux] ![Windows] ![macOS] | [git] |
@@ -79,6 +79,7 @@ For example,
 | [ember] (Yes) | Four warm truecolor colorschemes: two transparent darks (warm and cool neutrals), one opaque dark, one light. | ![Linux] ![Windows] ![macOS] | Truecolor terminal |
 | [filemanager2] (Yes) | Plugin that allows for easy navigation of a file tree. | ![Linux] ![Windows] ![macOS] | |
 | [findinfolder] (No, upstream gone) | Folder search support. | ![Linux] ![macOS] | [ripgrep], [fzf], [bat] |
+| [formatdocument] (Yes) | Formats ("pretty-prints") documents. | ![Linux] ![Windows] ![macOS] | [prettier_] and/or [clangformat_] |
 | [fzfinder] (Yes) | Integrate fzf to select and search for your project files. | ![Linux] ![Windows] ![macOS] | [fzf], (Optional) [bat] |
 | [gitStatus] (Yes) | Information about git in status bar. | ![Linux] ![Windows] ![macOS] | [git] |
 | [grepsearch] (Yes) | Using grep to recursively search in files. | ![Linux] ![Windows] ![macOS] | [grep on windows] |
@@ -219,6 +220,7 @@ For example,
 [aspell_]: http://aspell.net/
 [bat]: https://github.com/sharkdp/bat
 [calc_]: https://github.com/lcn2/calc
+[clangformat_]: https://clang.llvm.org/docs/ClangFormat.html
 [ctags_]: https://github.com/universal-ctags/ctags
 [delve_]: https://github.com/go-delve/delve/tree/master
 [diff on windows]: https://gnuwin32.sourceforge.net/packages/diffutils.htm

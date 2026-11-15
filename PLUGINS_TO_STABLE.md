@@ -17,3 +17,4 @@ Put the name of the plugin as a list item here, So like
 - ctags
 - vscode-default-dark-theme
 - sortlines
+- formatdocument
