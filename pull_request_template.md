@@ -1,4 +1,6 @@
-This is a
+# Plugin Pull Request
+
+This is a:
 
 - [ ] New plugin.
 - [ ] Update to an existing plugin.
@@ -7,17 +9,18 @@ This is a
 Plugin name:
 Plugin Repository:
 
-## Checklist:
+## Checklist
 
 ## ➕ Adding a plugin
 
 - [ ] Create a PR to `main`
-- [ ] Modify `README.md` and add an entry to the plugin (The name **MUST** match the one in `repo.json`). Remember it is in alphabatical order.
+- [ ] Modify `README.md` and add an entry to the plugin (The name **MUST** match the one in `repo.json`). Remember it is in alphabetical order.
 <!-- Append ` (Yes)` after your plugin name in the Name column since it is maintained -->
 - [ ] Modify `channel.json` to point to `repo.json` in the plugin repo. Remember it is in alphabatical order.
 - [ ] Modify `PLUGINS_TO_STABLE.md` and add the name of the plugin
 
 ## 🔼 Updating a plugin for both main and stable
+
 - [ ] Create a PR to `main`
 - [ ] Modify `README.md` for the plugin if needed
 - [ ] Modify `channel.json` if `repo.json` is in a different url
@@ -25,6 +28,7 @@ Plugin Repository:
 - [ ] If there's any change needed to be made to `stable`, specify in the description below.
 
 ## 🔧 Fix to an issue
+
 - [ ] Specify the fix in the description below.
 
 ---

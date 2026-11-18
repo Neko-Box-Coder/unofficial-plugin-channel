@@ -37,6 +37,8 @@
     "https://raw.githubusercontent.com/Neko-Box-Coder/filemanager2/main/repo.json",
     //findinfolder
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/plugins/findinfolder.json",
+    //formatdocument
+    "https://raw.githubusercontent.com/milnak/micro-formatdocument/refs/heads/main/repo.json",
     //fzfinder
     "https://raw.githubusercontent.com/MuratovAS/micro-fzfinder/main/repo.json",
     //gitStatus
@@ -70,7 +72,7 @@
     //markdown_autocomplete
     "https://raw.githubusercontent.com/dalekirkwood/markdown-autocomplete/main/repo.json",
     //mdtree
-    "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/raw/refs/heads/stable/plugins/mdtree.json", 
+    "https://github.com/Neko-Box-Coder/unofficial-plugin-channel/raw/refs/heads/stable/plugins/mdtree.json",
     //MicroOmni
     "https://raw.githubusercontent.com/Neko-Box-Coder/MicroOmni/master/repo.json",
     //microwiki
@@ -120,7 +122,7 @@
     //vscode-default-dark-theme
     "https://raw.githubusercontent.com/milnak/micro-vscode-default-dark-theme/main/repo.json",
     //wakatime
-    "https://raw.githubusercontent.com/wakatime/micro-wakatime/master/repo.json",    
+    "https://raw.githubusercontent.com/wakatime/micro-wakatime/master/repo.json",
     //xonsh
     "https://raw.githubusercontent.com/Neko-Box-Coder/unofficial-plugin-channel/main/plugins/xonsh.json",
     //yazi
